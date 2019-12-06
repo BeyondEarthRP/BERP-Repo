@@ -1,5 +1,5 @@
 #!/bin/sh
-grep --include=config.lua -rnw '/home/fivem/ESX/' -e "Config.Locale"
+grep --include=config.lua -rnw '/home/fivem/REPO/' -e "Config.Locale"
 echo 
 echo 
 echo 

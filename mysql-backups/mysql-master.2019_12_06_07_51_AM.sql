@@ -55,7 +55,7 @@ CREATE TABLE `addon_account_data` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `index_addon_account_data_account_name_owner` (`account_name`,`owner`),
   KEY `index_addon_account_data_account_name` (`account_name`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -64,7 +64,7 @@ CREATE TABLE `addon_account_data` (
 
 LOCK TABLES `addon_account_data` WRITE;
 /*!40000 ALTER TABLE `addon_account_data` DISABLE KEYS */;
-INSERT INTO `addon_account_data` VALUES (1,'society_police',0,NULL),(2,'society_ambulance',0,NULL),(3,'society_mechanic',0,NULL),(4,'society_taxi',0,NULL),(5,'society_cardealer',0,NULL),(6,'property_black_money',0,'steam:1100001357e3fb7'),(7,'property_black_money',0,'steam:110000131edd06f');
+INSERT INTO `addon_account_data` VALUES (1,'society_police',0,NULL),(2,'society_ambulance',0,NULL),(3,'society_mechanic',0,NULL),(4,'society_taxi',0,NULL),(5,'society_cardealer',0,NULL),(6,'property_black_money',0,'steam:1100001357e3fb7'),(7,'property_black_money',0,'steam:110000131edd06f'),(8,'property_black_money',0,'steam:110000101484d41');
 /*!40000 ALTER TABLE `addon_account_data` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -190,7 +190,7 @@ CREATE TABLE `characters` (
   `sex` varchar(1) COLLATE utf8mb4_bin NOT NULL DEFAULT 'M',
   `height` varchar(128) COLLATE utf8mb4_bin NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -199,7 +199,7 @@ CREATE TABLE `characters` (
 
 LOCK TABLES `characters` WRITE;
 /*!40000 ALTER TABLE `characters` DISABLE KEYS */;
-INSERT INTO `characters` VALUES (1,'steam:1100001357e3fb7','Jay','Deco','1981-10-01','m','187'),(2,'steam:110000131edd06f','MadDog','Drake','19640211','m','160');
+INSERT INTO `characters` VALUES (1,'steam:1100001357e3fb7','Jay','Deco','1981-10-01','m','187'),(2,'steam:110000131edd06f','MadDog','Drake','19640211','m','160'),(3,'steam:110000101484d41','Michael','Bricker','1975/07/04','m','180');
 /*!40000 ALTER TABLE `characters` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -243,7 +243,7 @@ CREATE TABLE `datastore_data` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `index_datastore_data_name_owner` (`name`,`owner`),
   KEY `index_datastore_data_name` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -252,7 +252,7 @@ CREATE TABLE `datastore_data` (
 
 LOCK TABLES `datastore_data` WRITE;
 /*!40000 ALTER TABLE `datastore_data` DISABLE KEYS */;
-INSERT INTO `datastore_data` VALUES (1,'society_police',NULL,'{}'),(2,'society_ambulance',NULL,'{}'),(3,'society_taxi',NULL,'{}'),(4,'property','steam:1100001357e3fb7','{}'),(5,'user_glasses','steam:1100001357e3fb7','{}'),(6,'user_helmet','steam:1100001357e3fb7','{}'),(7,'user_mask','steam:1100001357e3fb7','{}'),(8,'user_ears','steam:1100001357e3fb7','{}'),(9,'property','steam:110000131edd06f','{}'),(10,'user_ears','steam:110000131edd06f','{}'),(11,'user_glasses','steam:110000131edd06f','{}'),(12,'user_helmet','steam:110000131edd06f','{}'),(13,'user_mask','steam:110000131edd06f','{}');
+INSERT INTO `datastore_data` VALUES (1,'society_police',NULL,'{}'),(2,'society_ambulance',NULL,'{}'),(3,'society_taxi',NULL,'{}'),(4,'property','steam:1100001357e3fb7','{}'),(5,'user_glasses','steam:1100001357e3fb7','{}'),(6,'user_helmet','steam:1100001357e3fb7','{}'),(7,'user_mask','steam:1100001357e3fb7','{}'),(8,'user_ears','steam:1100001357e3fb7','{}'),(9,'property','steam:110000131edd06f','{}'),(10,'user_ears','steam:110000131edd06f','{}'),(11,'user_glasses','steam:110000131edd06f','{}'),(12,'user_helmet','steam:110000131edd06f','{}'),(13,'user_mask','steam:110000131edd06f','{}'),(14,'property','steam:110000101484d41','{}'),(15,'user_ears','steam:110000101484d41','{}'),(16,'user_glasses','steam:110000101484d41','{}'),(17,'user_helmet','steam:110000101484d41','{}'),(18,'user_mask','steam:110000101484d41','{}');
 /*!40000 ALTER TABLE `datastore_data` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -760,7 +760,7 @@ CREATE TABLE `user_accounts` (
   `name` varchar(50) COLLATE utf8mb4_bin NOT NULL,
   `money` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -769,7 +769,7 @@ CREATE TABLE `user_accounts` (
 
 LOCK TABLES `user_accounts` WRITE;
 /*!40000 ALTER TABLE `user_accounts` DISABLE KEYS */;
-INSERT INTO `user_accounts` VALUES (1,'steam:1100001357e3fb7','black_money',0),(2,'steam:110000131edd06f','black_money',1000000);
+INSERT INTO `user_accounts` VALUES (1,'steam:1100001357e3fb7','black_money',0),(2,'steam:110000131edd06f','black_money',1000000),(3,'steam:110000101484d41','black_money',0);
 /*!40000 ALTER TABLE `user_accounts` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -812,7 +812,7 @@ CREATE TABLE `user_inventory` (
   `item` varchar(50) COLLATE utf8mb4_bin NOT NULL,
   `count` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -821,7 +821,7 @@ CREATE TABLE `user_inventory` (
 
 LOCK TABLES `user_inventory` WRITE;
 /*!40000 ALTER TABLE `user_inventory` DISABLE KEYS */;
-INSERT INTO `user_inventory` VALUES (1,'steam:1100001357e3fb7','water',0),(2,'steam:1100001357e3fb7','bread',0),(3,'steam:1100001357e3fb7','gazbottle',0),(4,'steam:1100001357e3fb7','bandage',0),(5,'steam:1100001357e3fb7','medikit',0),(6,'steam:1100001357e3fb7','fixkit',0),(7,'steam:1100001357e3fb7','carokit',0),(8,'steam:1100001357e3fb7','fixtool',0),(9,'steam:1100001357e3fb7','blowpipe',0),(10,'steam:1100001357e3fb7','carotool',0),(11,'steam:1100001357e3fb7','cannabis',0),(12,'steam:1100001357e3fb7','marijuana',0),(13,'steam:110000131edd06f','marijuana',1),(14,'steam:110000131edd06f','carokit',0),(15,'steam:110000131edd06f','cannabis',3),(16,'steam:110000131edd06f','blowpipe',0),(17,'steam:110000131edd06f','carotool',0),(18,'steam:110000131edd06f','gazbottle',0),(19,'steam:110000131edd06f','medikit',0),(20,'steam:110000131edd06f','water',0),(21,'steam:110000131edd06f','fixkit',0),(22,'steam:110000131edd06f','fixtool',0),(23,'steam:110000131edd06f','bandage',0),(24,'steam:110000131edd06f','bread',0);
+INSERT INTO `user_inventory` VALUES (1,'steam:1100001357e3fb7','water',0),(2,'steam:1100001357e3fb7','bread',0),(3,'steam:1100001357e3fb7','gazbottle',0),(4,'steam:1100001357e3fb7','bandage',0),(5,'steam:1100001357e3fb7','medikit',0),(6,'steam:1100001357e3fb7','fixkit',0),(7,'steam:1100001357e3fb7','carokit',0),(8,'steam:1100001357e3fb7','fixtool',0),(9,'steam:1100001357e3fb7','blowpipe',0),(10,'steam:1100001357e3fb7','carotool',0),(11,'steam:1100001357e3fb7','cannabis',0),(12,'steam:1100001357e3fb7','marijuana',0),(13,'steam:110000131edd06f','marijuana',1),(14,'steam:110000131edd06f','carokit',0),(15,'steam:110000131edd06f','cannabis',3),(16,'steam:110000131edd06f','blowpipe',0),(17,'steam:110000131edd06f','carotool',0),(18,'steam:110000131edd06f','gazbottle',0),(19,'steam:110000131edd06f','medikit',0),(20,'steam:110000131edd06f','water',0),(21,'steam:110000131edd06f','fixkit',0),(22,'steam:110000131edd06f','fixtool',0),(23,'steam:110000131edd06f','bandage',0),(24,'steam:110000131edd06f','bread',0),(25,'steam:110000101484d41','medikit',0),(26,'steam:110000101484d41','fixkit',0),(27,'steam:110000101484d41','bread',0),(28,'steam:110000101484d41','water',0),(29,'steam:110000101484d41','carotool',0),(30,'steam:110000101484d41','gazbottle',0),(31,'steam:110000101484d41','blowpipe',0),(32,'steam:110000101484d41','bandage',0),(33,'steam:110000101484d41','cannabis',0),(34,'steam:110000101484d41','fixtool',0),(35,'steam:110000101484d41','marijuana',0),(36,'steam:110000101484d41','carokit',0);
 /*!40000 ALTER TABLE `user_inventory` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -889,7 +889,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES ('steam:110000131edd06f','license:57df41af3eceedf7d50073b8903b0e470c0ed194',81000,'Mad Dog Drake','{\"glasses_1\":0,\"bracelets_2\":0,\"tshirt_1\":24,\"eyebrows_1\":0,\"hair_2\":3,\"makeup_3\":0,\"blemishes_1\":0,\"complexion_2\":0,\"pants_1\":4,\"pants_2\":0,\"makeup_2\":0,\"bags_2\":0,\"torso_1\":0,\"blush_3\":0,\"skin\":8,\"beard_3\":0,\"mask_1\":26,\"eyebrows_3\":0,\"bracelets_1\":-1,\"bproof_1\":0,\"sun_2\":0,\"eye_color\":0,\"age_2\":0,\"eyebrows_2\":0,\"decals_2\":0,\"chest_1\":0,\"mask_2\":1,\"shoes_1\":4,\"lipstick_4\":0,\"arms\":0,\"hair_1\":2,\"bproof_2\":0,\"bodyb_2\":0,\"age_1\":0,\"hair_color_2\":0,\"helmet_1\":-1,\"lipstick_3\":0,\"eyebrows_4\":0,\"blush_1\":0,\"watches_1\":-1,\"glasses_2\":0,\"sex\":0,\"watches_2\":0,\"bodyb_1\":0,\"chain_1\":0,\"lipstick_2\":0,\"tshirt_2\":0,\"chest_2\":0,\"chain_2\":0,\"blemishes_2\":0,\"arms_2\":5,\"moles_1\":0,\"chest_3\":0,\"decals_1\":5,\"hair_color_1\":18,\"blush_2\":0,\"sun_1\":0,\"moles_2\":0,\"lipstick_1\":0,\"ears_2\":0,\"beard_2\":0,\"torso_2\":7,\"helmet_2\":0,\"makeup_4\":0,\"complexion_1\":0,\"face\":0,\"makeup_1\":0,\"bags_1\":0,\"beard_1\":0,\"ears_1\":-1,\"shoes_2\":0,\"beard_4\":0}','cardealer',0,'[]','{\"x\":-100.20000000002,\"z\":35.800000000002,\"y\":-639.3999999999}',5003730,0,'superadmin','[{\"val\":246400,\"percent\":24.64,\"name\":\"hunger\"},{\"val\":309800,\"percent\":30.98,\"name\":\"thirst\"}]','MadDog','Drake','19640211','m','160',0,NULL,NULL),('steam:1100001357e3fb7','license:d435021f135e53d72161a279ecb97a43934d7009',0,'djbeyondearth','{\"glasses_1\":3,\"chest_2\":0,\"tshirt_1\":141,\"eyebrows_1\":3,\"hair_2\":0,\"makeup_3\":0,\"sun_1\":0,\"complexion_2\":3,\"pants_1\":27,\"blush_1\":0,\"hair_color_1\":0,\"chest_3\":0,\"torso_1\":269,\"blush_3\":0,\"skin\":45,\"beard_3\":5,\"mask_1\":0,\"eyebrows_3\":0,\"bracelets_1\":-1,\"bproof_1\":0,\"sun_2\":0,\"eye_color\":0,\"age_2\":0,\"lipstick_3\":35,\"tshirt_2\":15,\"chest_1\":0,\"mask_2\":0,\"shoes_1\":26,\"decals_1\":0,\"face\":31,\"hair_1\":0,\"bproof_2\":0,\"bodyb_2\":0,\"age_1\":0,\"hair_color_2\":0,\"lipstick_4\":0,\"blemishes_2\":0,\"helmet_1\":-1,\"beard_2\":10,\"bags_2\":0,\"beard_1\":18,\"sex\":0,\"watches_2\":0,\"bodyb_1\":0,\"chain_1\":0,\"lipstick_2\":3,\"decals_2\":0,\"bracelets_2\":0,\"chain_2\":0,\"makeup_2\":0,\"arms_2\":0,\"moles_1\":0,\"blush_2\":0,\"blemishes_1\":0,\"arms\":0,\"pants_2\":1,\"eyebrows_4\":0,\"moles_2\":0,\"lipstick_1\":0,\"ears_2\":0,\"beard_4\":0,\"torso_2\":11,\"helmet_2\":0,\"makeup_4\":0,\"shoes_2\":4,\"makeup_1\":0,\"complexion_1\":2,\"bags_1\":0,\"watches_1\":1,\"ears_1\":-1,\"eyebrows_2\":10,\"glasses_2\":9}','unemployed',0,'[]','{\"x\":2229.5999999996,\"z\":53.800000000002,\"y\":5574.8000000008}',40038600,0,'superadmin','[{\"name\":\"hunger\",\"percent\":47.54,\"val\":475400},{\"name\":\"thirst\",\"percent\":48.155,\"val\":481550}]','Jay','Deco','1981-10-01','m','187',0,59360,NULL);
+INSERT INTO `users` VALUES ('steam:110000101484d41','license:86eb27794850e6b5d312a61e21642cd51464b0a4',0,'John Whisk','{\"watches_2\":0,\"helmet_1\":-1,\"glasses_1\":5,\"blush_1\":0,\"lipstick_2\":0,\"eyebrows_3\":1,\"chest_2\":0,\"eyebrows_2\":5,\"makeup_4\":0,\"pants_2\":0,\"moles_2\":0,\"skin\":5,\"sun_2\":0,\"blush_3\":0,\"decals_2\":0,\"torso_2\":2,\"sex\":0,\"eye_color\":0,\"beard_3\":3,\"makeup_2\":0,\"blush_2\":0,\"ears_2\":0,\"face\":44,\"makeup_3\":0,\"ears_1\":-1,\"tshirt_2\":1,\"pants_1\":0,\"arms_2\":0,\"bracelets_2\":0,\"age_2\":0,\"hair_color_2\":3,\"glasses_2\":0,\"tshirt_1\":7,\"lipstick_4\":0,\"complexion_2\":0,\"bracelets_1\":-1,\"bodyb_1\":0,\"chain_2\":0,\"blemishes_2\":0,\"helmet_2\":0,\"makeup_1\":0,\"eyebrows_4\":0,\"bproof_1\":0,\"bags_1\":0,\"blemishes_1\":0,\"sun_1\":0,\"beard_4\":3,\"hair_1\":37,\"mask_2\":0,\"bproof_2\":0,\"bags_2\":0,\"hair_color_1\":3,\"mask_1\":0,\"shoes_1\":0,\"arms\":0,\"age_1\":0,\"hair_2\":0,\"torso_1\":3,\"decals_1\":0,\"lipstick_1\":0,\"eyebrows_1\":3,\"shoes_2\":0,\"chest_3\":0,\"chain_1\":0,\"bodyb_2\":0,\"complexion_1\":0,\"lipstick_3\":0,\"beard_2\":8,\"chest_1\":7,\"watches_1\":0,\"moles_1\":0,\"beard_1\":11}','ambulance',0,'[]','{\"x\":-265.40000000002,\"y\":-964.3999999999,\"z\":31.199999999998}',844,0,'user','[{\"name\":\"hunger\",\"val\":745400,\"percent\":74.54},{\"name\":\"thirst\",\"val\":809050,\"percent\":80.905}]','Michael','Bricker','1975/07/04','m','180',0,NULL,NULL),('steam:110000131edd06f','license:57df41af3eceedf7d50073b8903b0e470c0ed194',81000,'Mad Dog Drake','{\"glasses_1\":0,\"bracelets_2\":0,\"tshirt_1\":24,\"eyebrows_1\":0,\"hair_2\":3,\"makeup_3\":0,\"blemishes_1\":0,\"complexion_2\":0,\"pants_1\":4,\"pants_2\":0,\"makeup_2\":0,\"bags_2\":0,\"torso_1\":0,\"blush_3\":0,\"skin\":8,\"beard_3\":0,\"mask_1\":26,\"eyebrows_3\":0,\"bracelets_1\":-1,\"bproof_1\":0,\"sun_2\":0,\"eye_color\":0,\"age_2\":0,\"eyebrows_2\":0,\"decals_2\":0,\"chest_1\":0,\"mask_2\":1,\"shoes_1\":4,\"lipstick_4\":0,\"arms\":0,\"hair_1\":2,\"bproof_2\":0,\"bodyb_2\":0,\"age_1\":0,\"hair_color_2\":0,\"helmet_1\":-1,\"lipstick_3\":0,\"eyebrows_4\":0,\"blush_1\":0,\"watches_1\":-1,\"glasses_2\":0,\"sex\":0,\"watches_2\":0,\"bodyb_1\":0,\"chain_1\":0,\"lipstick_2\":0,\"tshirt_2\":0,\"chest_2\":0,\"chain_2\":0,\"blemishes_2\":0,\"arms_2\":5,\"moles_1\":0,\"chest_3\":0,\"decals_1\":5,\"hair_color_1\":18,\"blush_2\":0,\"sun_1\":0,\"moles_2\":0,\"lipstick_1\":0,\"ears_2\":0,\"beard_2\":0,\"torso_2\":7,\"helmet_2\":0,\"makeup_4\":0,\"complexion_1\":0,\"face\":0,\"makeup_1\":0,\"bags_1\":0,\"beard_1\":0,\"ears_1\":-1,\"shoes_2\":0,\"beard_4\":0}','cardealer',0,'[]','{\"x\":-100.20000000002,\"z\":35.800000000002,\"y\":-639.3999999999}',5003730,0,'superadmin','[{\"val\":246400,\"percent\":24.64,\"name\":\"hunger\"},{\"val\":309800,\"percent\":30.98,\"name\":\"thirst\"}]','MadDog','Drake','19640211','m','160',0,NULL,NULL),('steam:1100001357e3fb7','license:d435021f135e53d72161a279ecb97a43934d7009',0,'djbeyondearth','{\"glasses_1\":3,\"chest_2\":0,\"tshirt_1\":141,\"eyebrows_1\":3,\"hair_2\":0,\"makeup_3\":0,\"sun_1\":0,\"complexion_2\":3,\"pants_1\":27,\"blush_1\":0,\"hair_color_1\":0,\"chest_3\":0,\"torso_1\":269,\"blush_3\":0,\"skin\":45,\"beard_3\":5,\"mask_1\":0,\"eyebrows_3\":0,\"bracelets_1\":-1,\"bproof_1\":0,\"sun_2\":0,\"eye_color\":0,\"age_2\":0,\"lipstick_3\":35,\"tshirt_2\":15,\"chest_1\":0,\"mask_2\":0,\"shoes_1\":26,\"decals_1\":0,\"face\":31,\"hair_1\":0,\"bproof_2\":0,\"bodyb_2\":0,\"age_1\":0,\"hair_color_2\":0,\"lipstick_4\":0,\"blemishes_2\":0,\"helmet_1\":-1,\"beard_2\":10,\"bags_2\":0,\"beard_1\":18,\"sex\":0,\"watches_2\":0,\"bodyb_1\":0,\"chain_1\":0,\"lipstick_2\":3,\"decals_2\":0,\"bracelets_2\":0,\"chain_2\":0,\"makeup_2\":0,\"arms_2\":0,\"moles_1\":0,\"blush_2\":0,\"blemishes_1\":0,\"arms\":0,\"pants_2\":1,\"eyebrows_4\":0,\"moles_2\":0,\"lipstick_1\":0,\"ears_2\":0,\"beard_4\":0,\"torso_2\":11,\"helmet_2\":0,\"makeup_4\":0,\"shoes_2\":4,\"makeup_1\":0,\"complexion_1\":2,\"bags_1\":0,\"watches_1\":1,\"ears_1\":-1,\"eyebrows_2\":10,\"glasses_2\":9}','unemployed',0,'[]','{\"x\":2221.2000000002,\"y\":5575.4000000004,\"z\":53.800000000002}',40038800,0,'superadmin','[{\"name\":\"hunger\",\"val\":435500,\"percent\":43.55},{\"name\":\"thirst\",\"val\":451625,\"percent\":45.1625}]','Jay','Deco','1981-10-01','m','187',0,59360,NULL);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -978,4 +978,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-12-05 22:23:46
+-- Dump completed on 2019-12-06  7:51:24
