@@ -108,7 +108,6 @@ sv_scriptHookAllowed 0
 # Uncomment this and set a password to enable RCON. Make sure to change the password - it should look like rcon_password "YOURPASSWORD"
 
 
-rcon_password CHANGE_ME
 
 
 # A comma-separated list of tags for your server.
