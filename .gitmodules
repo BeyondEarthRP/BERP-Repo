@@ -148,3 +148,6 @@
 [submodule "essentialmode"]
 	path = essentialmode
 	url = git@github.com:BeyondEarthRP/essentialmode.git
+[submodule "async"]
+	path = async
+	url = git@github.com:BeyondEarthRP/async.git
