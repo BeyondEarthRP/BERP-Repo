@@ -4,3 +4,6 @@
 [submodule "[esx]/esx_accessories"]
 	path = [esx]/esx_accessories
 	url = git@github.com:BeyondEarthRP/esx_accessories.git
+[submodule "cron"]
+	path = cron
+	url = git@github.com:BeyondEarthRP/cron
