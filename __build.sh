@@ -3,6 +3,12 @@ LOGO="SplatEarth.png"
 
 Pass=`date +%s | sha256sum | base64 | head -c 32 ; echo`
 
+##########--LOADING SCREEN--#############################
+#cp -rfup /home/fivem/REPO/__\[LOADING-SCREENS\]__/loqscript-material_load-loadingscreen /opt/FXServer/server-data/resources/
+#cp -rfup /home/fivem/REPO/__\[LOADING-SCREENS\]__/fivem-gta-loading /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/__\[LOADING-SCREENS\]__/cyberload /opt/FXServer/server-data/resources/
+#########################################################
+
 sed "s/rcon_password CHANGE_ME/rcon_password ${Pass}/" /home/fivem/REPO/server.cfg > /opt/FXServer/server-data/server.cfg
 #cp -rfup /home/fivem/REPO/server.cfg /opt/FXServer/server-data/server.cfg
 cp -rfup /home/fivem/REPO/__\[LOGOS\]__/$LOGO /opt/FXServer/server-data/BERP-Logo.png
@@ -22,7 +28,6 @@ cp -rfup /home/fivem/REPO/[essential]/es_extended /opt/FXServer/server-data/reso
 cp -rfup /home/fivem/REPO/cron /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/es_admin2 /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/skinchanger /opt/FXServer/server-data/resources/
-cp -rfup /home/fivem/REPO/loqscript-material_load-loadingscreen /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/GcPhoneForESX/resources/* /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/bob74_ipl /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/instance /opt/FXServer/server-data/resources/[esx]/

@@ -1,0 +1,42 @@
+[
+	{
+		"useBackgroundColour" : "true",
+		"backgroundColour" : "00,00,90",
+		"useBackgroundImage" : "false",
+		"backgroundImagePath" : "images/backgroundImg7.jpg",
+		"useTextColour" : "false",
+		"textColour" : "0,0,0",
+		"useBoldText" : "false",
+		"serverTitle" : "Beyond Earth RolePlay",
+		"playAudioInBackground" : "true",
+		"YTVideoID" : "HPc8QMycGno",
+		"videoVolume" : "5"
+	},
+	{
+		"rule1" : "Do not RDM or VDM",
+		"rule2" : "A microphone is a requirement",
+		"rule3" : "Do not abuse/exploit bugs",
+		"rule4" : "Do not use cheats",
+		"rule5" : "No racism",
+		"rule6" : "Do not harass others",
+		"rule7" : "Use common sense"
+	},
+	{
+		"servers1" : "Website: DERP!",
+		"servers2" : "Teamspeak: ERP DERP!",
+		"servers3" : "Discord: https://discord.gg/eeUjgP5",
+		"servers4" : "",
+		"servers5" : "This whole thing is new.",
+		"servers6" : "join us while its raw!",
+		"servers7" : "-(ps: help! is there a 911 for programming?)"
+	},
+	{
+		"content1" : "(WIP) Character Customization",
+		"content2" : "(WIP) Purchasable & Storable Vehicles",
+		"content3" : "(WIP) Whitelisted Police & EMT Force",
+		"content4" : "(WIP) Multiple Jobs (mining, fishing, drugs, etc)",
+		"content5" : "(WIP) Banks & ATMs",
+		"content6" : "(WIP) Custom Vehicle Models",
+		"content7" : "(WIP) Cellphone Messaging & Calling"
+	}
+]
