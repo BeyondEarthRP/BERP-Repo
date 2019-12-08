@@ -1,7 +1,11 @@
 #!/bin/sh
+LOGO="SplatEarth.png"
+
 Pass=`date +%s | sha256sum | base64 | head -c 32 ; echo`
+
 sed "s/rcon_password CHANGE_ME/rcon_password ${Pass}/" /home/fivem/REPO/server.cfg > /opt/FXServer/server-data/server.cfg
 #cp -rfup /home/fivem/REPO/server.cfg /opt/FXServer/server-data/server.cfg
+cp -rfup /home/fivem/REPO/__\[LOGOS\]__/$LOGO /opt/FXServer/server-data/BERP-Logo.png
 cp -rfup /home/fivem/REPO/fivem-resource-base/* /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/es_ui /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/essentialmode /opt/FXServer/server-data/resources/
