@@ -1,8 +1,7 @@
 #!/bin/sh
 LOGO="SplatEarth.png"
 
-Pass=`date +%s | sha256sum | base64 | head -c 64 ; echo`
-DateStamp=`date +"@%B#%Y"`
+#Pass=`date +%s | sha256sum | base64 | head -c 32 ; echo`
 
 ##########--LOADING SCREEN--#############################
 #cp -rfup /home/fivem/REPO/__\[LOADING-SCREENS\]__/loqscript-material_load-loadingscreen /opt/FXServer/server-data/resources/
@@ -10,7 +9,7 @@ DateStamp=`date +"@%B#%Y"`
 cp -rfup /home/fivem/REPO/__\[LOADING-SCREENS\]__/cyberload /opt/FXServer/server-data/resources/
 #########################################################
 
-sed "s/#rcon_password CHANGE_ME/rcon_password \"${Pass}${DateStamp}\"/" /home/fivem/REPO/server.cfg > /opt/FXServer/server-data/server.cfg
+#sed "s/rcon_password CHANGE_ME/rcon_password ${Pass}/" /home/fivem/REPO/server.cfg > /opt/FXServer/server-data/server.cfg
 #cp -rfup /home/fivem/REPO/server.cfg /opt/FXServer/server-data/server.cfg
 cp -rfup /home/fivem/REPO/__\[LOGOS\]__/$LOGO /opt/FXServer/server-data/BERP-Logo.png
 cp -rfup /home/fivem/REPO/fivem-resource-base/* /opt/FXServer/server-data/resources/
@@ -19,9 +18,9 @@ cp -rfup /home/fivem/REPO/essentialmode /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/mysql-async /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/esplugin_mysql /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/async /opt/FXServer/server-data/resources/
-mkdir /opt/FXServer/server-data/resources/[esx]
-mkdir /opt/FXServer/server-data/resources/[esx]/[ui]
-mkdir /opt/FXServer/server-data/resources/[essential]
+#mkdir /opt/FXServer/server-data/resources/[esx]
+#mkdir /opt/FXServer/server-data/resources/[esx]/[ui]
+#mkdir /opt/FXServer/server-data/resources/[essential]
 cp -rfup /home/fivem/REPO/[esx]/[ui]/esx_menu_default /opt/FXServer/server-data/resources/[esx]/[ui]/
 cp -rfup /home/fivem/REPO/[esx]/[ui]/esx_menu_dialog /opt/FXServer/server-data/resources/[esx]/[ui]/
 cp -rfup /home/fivem/REPO/[esx]/[ui]/esx_menu_list /opt/FXServer/server-data/resources/[esx]/[ui]/
@@ -67,3 +66,4 @@ cp -rfup /home/fivem/REPO/[esx]/esx_drugs /opt/FXServer/server-data/resources/[e
 cp -rfup /home/fivem/REPO/[esx]/esx_atm /opt/FXServer/server-data/resources/[esx]/
 cp -rfup /home/fivem/REPO/[esx]/esx_service /opt/FXServer/server-data/resources/[esx]/
 
+echo "done."
