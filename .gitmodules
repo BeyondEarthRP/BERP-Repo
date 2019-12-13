@@ -151,3 +151,9 @@
 [submodule "async"]
 	path = async
 	url = https://github.com/BeyondEarthRP/async.git
+[submodule "__[VEHICLES-PACKS]__/Vehicles"]
+	path = __[VEHICLES-PACKS]__/Vehicles
+	url = https://github.com/five-m/Vehicles.git
+[submodule "__[VEHICLES-PACKS]__/JobVehicles"]
+	path = __[VEHICLES-PACKS]__/JobVehicles
+	url = https://github.com/AnotherGermanRoleplay/Cars-JobVehicles.git
