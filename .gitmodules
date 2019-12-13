@@ -165,4 +165,4 @@
 	url = git@github.com:BeyondEarthRP/esx_drugfarms.git
 [submodule "trew_hud_ui"]
 	path = trew_hud_ui
-	url = git@github.com:BeyondEarthRP/trew_hud_ui.git
+	url = https://github.com/BeyondEarthRP/trew_hud_ui
