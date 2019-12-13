@@ -22,13 +22,16 @@ cp -rfup /home/fivem/REPO/GcPhoneForESX/resources/* /opt/FXServer/server-data/re
 cp -rfup /home/fivem/REPO/bob74_ipl /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/instance /opt/FXServer/server-data/resources/[esx]/
 cp -rfup /home/fivem/REPO/[plugins] /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/\[vehicles\] /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/\[vehicles\]/* /opt/FXServer/server-data/resources/\[vehicles\]/
 cp -rfup /home/fivem/REPO/FiveM-RealisticVehicles/[vehicles] /opt/FXServer/server-data/resources/
-cp -rfup /home/fivem/REPO/FiveM-RealisticVehicles/[vehicles]/* /opt/FXServer/server-data/resources/[vehicles]/
+cp -rfup /home/fivem/REPO/FiveM-RealisticVehicles/\[vehicles\]/* /opt/FXServer/server-data/resources/\[vehicles\]/
 cp -rfup /home/fivem/REPO/[vehicles-civ] /opt/FXServer/server-data/resources/
-cp -rfup /home/fivem/REPO/[vehicles-civ]/* /opt/FXServer/server-data/resources/[vehicles-civ]/
+cp -rfup /home/fivem/REPO/\[vehicles-civ\]/* /opt/FXServer/server-data/resources/\[vehicles-civ\]/
 cp -rfup /home/fivem/REPO/[places] /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/Calm-AI /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/Hot-Female-Ped-Pack/ped_pack /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/trew_hud_ui /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/[esx]/esx_basicneeds /opt/FXServer/server-data/resources/[esx]/
 cp -rfup /home/fivem/REPO/[esx]/esx_status /opt/FXServer/server-data/resources/[esx]/
 cp -rfup /home/fivem/REPO/[esx]/esx_society /opt/FXServer/server-data/resources/[esx]/
@@ -59,4 +62,5 @@ cp -rfup /home/fivem/REPO/[esx]/esx_holdup /opt/FXServer/server-data/resources/[
 cp -rfup /home/fivem/REPO/[esx]/esx_drugs /opt/FXServer/server-data/resources/[esx]/
 cp -rfup /home/fivem/REPO/[esx]/esx_atm /opt/FXServer/server-data/resources/[esx]/
 cp -rfup /home/fivem/REPO/[esx]/esx_service /opt/FXServer/server-data/resources/[esx]/
+cp -rfup /home/fivem/REPO/[esx]/esx_drugfarms /opt/FXServer/server-data/resources/[esx]/
 
