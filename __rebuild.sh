@@ -23,7 +23,9 @@ cp -rfup /home/fivem/REPO/bob74_ipl /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/instance /opt/FXServer/server-data/resources/[esx]/
 cp -rfup /home/fivem/REPO/[plugins] /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/FiveM-RealisticVehicles/[vehicles] /opt/FXServer/server-data/resources/
-cp -rfup /home/fivem/REPO/\[vehicles\]/* /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/FiveM-RealisticVehicles/[vehicles]/* /opt/FXServer/server-data/resources/[vehicles]/
+cp -rfup /home/fivem/REPO/[vehicles-civ] /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/[vehicles-civ]/* /opt/FXServer/server-data/resources/[vehicles-civ]/
 cp -rfup /home/fivem/REPO/[places] /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/Calm-AI /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/Hot-Female-Ped-Pack/ped_pack /opt/FXServer/server-data/resources/
