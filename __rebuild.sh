@@ -32,6 +32,10 @@ cp -rfup /home/fivem/REPO/[places] /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/Calm-AI /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/Hot-Female-Ped-Pack/ped_pack /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/trew_hud_ui/ESX/trew_hud_ui /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/mapaddons /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/Peds /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/LegacyFuel /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/RadarWhileDriving /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/[esx]/esx_basicneeds /opt/FXServer/server-data/resources/[esx]/
 cp -rfup /home/fivem/REPO/[esx]/esx_status /opt/FXServer/server-data/resources/[esx]/
 cp -rfup /home/fivem/REPO/[esx]/esx_society /opt/FXServer/server-data/resources/[esx]/

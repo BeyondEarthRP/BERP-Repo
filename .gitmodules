@@ -166,3 +166,15 @@
 [submodule "trew_hud_ui"]
 	path = trew_hud_ui
 	url = https://github.com/BeyondEarthRP/trew_hud_ui
+[submodule "mapaddons"]
+	path = mapaddons
+	url = git@github.com:BeyondEarthRP/FiveM_CustomMapAddons.git
+[submodule "Peds"]
+	path = Peds
+	url = git@github.com:BeyondEarthRP/Peds.git
+[submodule "LegacyFuel"]
+	path = LegacyFuel
+	url = git@github.com:BeyondEarthRP/LegacyFuel.git
+[submodule "RadarWhileDriving"]
+	path = RadarWhileDriving
+	url = git@github.com:BeyondEarthRP/RadarWhileDriving.git
