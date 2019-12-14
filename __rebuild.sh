@@ -36,7 +36,6 @@ cp -rfup /home/fivem/REPO/WeightDisplayForTrew /opt/FXServer/server-data/resourc
 cp -rfup /home/fivem/REPO/mapaddons /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/Peds /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/LegacyFuel /opt/FXServer/server-data/resources/
-cp -rfup /home/fivem/REPO/RadarWhileDriving /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/[esx]/esx_basicneeds /opt/FXServer/server-data/resources/[esx]/
 cp -rfup /home/fivem/REPO/[esx]/esx_status /opt/FXServer/server-data/resources/[esx]/
 cp -rfup /home/fivem/REPO/[esx]/esx_society /opt/FXServer/server-data/resources/[esx]/
