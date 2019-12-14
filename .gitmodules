@@ -178,6 +178,3 @@
 [submodule "WeightDisplayForTrew"]
 	path = WeightDisplayForTrew
 	url = git@github.com:BeyondEarthRP/WightDisplay-for-trew_hud_ui-FiveM.git
-[submodule "RadarWhileDriving"]
-	path = RadarWhileDriving
-	url = git@github.com:BeyondEarthRP/RadarWhileDriving.git
