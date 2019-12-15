@@ -211,3 +211,15 @@
 [submodule "[esx]/esx_map"]
 	path = [esx]/esx_map
 	url = git@github.com:BeyondEarthRP/esx_map.git
+[submodule "jointransition"]
+	path = jointransition
+	url = git@github.com:BeyondEarthRP/JoinTransition.git
+[submodule "[esx]/instance"]
+	path = [esx]/instance
+	url = git@github.com:BeyondEarthRP/instance
+[submodule "airports"]
+	path = airports
+	url = git@github.com:BeyondEarthRP/airports.git
+[submodule "[rendertarget]"]
+	path = [rendertarget]
+	url = git@github.com:BeyondEarthRP/gtav-rendertarget.git
