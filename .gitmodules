@@ -190,3 +190,24 @@
 [submodule "[esx]/esx_optionalneeds"]
 	path = [esx]/esx_optionalneeds
 	url = https://github.com/BeyondEarthRP/esx_optionalneeds.git
+[submodule "[esx]/esx_lscustom"]
+	path = [esx]/esx_lscustom
+	url = https://github.com/BeyondEarthRP/esx_lscustom.git
+[submodule "[esx]/esx_carwash"]
+	path = [esx]/esx_carwash
+	url = git@github.com:BeyondEarthRP/esx_carwash.git
+[submodule "fivem-ipl"]
+	path = fivem-ipl
+	url = git@github.com:BeyondEarthRP/fivem-ipl.git
+[submodule "[esx]/esx_realweapons"]
+	path = [esx]/esx_realweapons
+	url = https://github.com/BeyondEarthRP/esx_realweapons.git
+[submodule "FiveM-DinoWeather"]
+	path = FiveM-DinoWeather
+	url = git@github.com:BeyondEarthRP/FiveM-DinoWeather.git
+[submodule "societybalance"]
+	path = societybalance
+	url = git@github.com:BeyondEarthRP/societybalance.git
+[submodule "[esx]/esx_map"]
+	path = [esx]/esx_map
+	url = git@github.com:BeyondEarthRP/esx_map.git
