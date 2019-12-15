@@ -40,9 +40,6 @@
 [submodule "es_ui"]
 	path = es_ui
 	url = https://github.com/BeyondEarthRP/es_ui.git
-[submodule "loqscript-material_load-loadingscreen"]
-	path = loqscript-material_load-loadingscreen
-	url = https://github.com/BeyondEarthRP/FiveM-Material_Load-Loading-Screen.git
 [submodule "[esx]/esx_license"]
 	path = [esx]/esx_license
 	url = https://github.com/BeyondEarthRP/esx_license.git
