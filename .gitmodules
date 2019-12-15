@@ -178,3 +178,15 @@
 [submodule "WeightDisplayForTrew"]
 	path = WeightDisplayForTrew
 	url = git@github.com:BeyondEarthRP/WightDisplay-for-trew_hud_ui-FiveM.git
+[submodule "[vehicles]/RealisticVehicleFailure"]
+	path = [vehicles]/RealisticVehicleFailure
+	url = git@github.com:BeyondEarthRP/RealisticVehicleFailure.git
+[submodule "[esx]/esx_sit"]
+	path = [esx]/esx_sit
+	url = git@github.com:BeyondEarthRP/esx_sit.git
+[submodule "[esx]/esx_rpchat"]
+	path = [esx]/esx_rpchat
+	url = git@github.com:BeyondEarthRP/esx_rpchat.git
+[submodule "[esx]/esx_optionalneeds"]
+	path = [esx]/esx_optionalneeds
+	url = https://github.com/BeyondEarthRP/esx_optionalneeds.git
