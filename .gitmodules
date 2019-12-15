@@ -40,9 +40,6 @@
 [submodule "es_ui"]
 	path = es_ui
 	url = https://github.com/BeyondEarthRP/es_ui.git
-[submodule "loqscript-material_load-loadingscreen"]
-	path = loqscript-material_load-loadingscreen
-	url = https://github.com/BeyondEarthRP/FiveM-Material_Load-Loading-Screen.git
 [submodule "[esx]/esx_license"]
 	path = [esx]/esx_license
 	url = https://github.com/BeyondEarthRP/esx_license.git
@@ -159,34 +156,34 @@
 	url = https://github.com/AnotherGermanRoleplay/Cars-JobVehicles.git
 [submodule "[vehicles]/ExternalVehicleCommands"]
 	path = [vehicles]/ExternalVehicleCommands
-	url = git@github.com:BeyondEarthRP/ExternalVehicleCommands.git
+	url = https://github.com/BeyondEarthRP/ExternalVehicleCommands.git
 [submodule "[esx]/esx_drugfarms"]
 	path = [esx]/esx_drugfarms
-	url = git@github.com:BeyondEarthRP/esx_drugfarms.git
+	url = https://github.com/BeyondEarthRP/esx_drugfarms.git
 [submodule "trew_hud_ui"]
 	path = trew_hud_ui
 	url = https://github.com/BeyondEarthRP/trew_hud_ui
 [submodule "mapaddons"]
 	path = mapaddons
-	url = git@github.com:BeyondEarthRP/FiveM_CustomMapAddons.git
+	url = https://github.com/BeyondEarthRP/FiveM_CustomMapAddons.git
 [submodule "Peds"]
 	path = Peds
-	url = git@github.com:BeyondEarthRP/Peds.git
+	url = https://github.com/BeyondEarthRP/Peds.git
 [submodule "LegacyFuel"]
 	path = LegacyFuel
-	url = git@github.com:BeyondEarthRP/LegacyFuel.git
+	url = https://github.com/BeyondEarthRP/LegacyFuel.git
 [submodule "WeightDisplayForTrew"]
 	path = WeightDisplayForTrew
-	url = git@github.com:BeyondEarthRP/WightDisplay-for-trew_hud_ui-FiveM.git
+	url = https://github.com/BeyondEarthRP/WightDisplay-for-trew_hud_ui-FiveM.git
 [submodule "[vehicles]/RealisticVehicleFailure"]
 	path = [vehicles]/RealisticVehicleFailure
-	url = git@github.com:BeyondEarthRP/RealisticVehicleFailure.git
+	url = https://github.com/BeyondEarthRP/RealisticVehicleFailure.git
 [submodule "[esx]/esx_sit"]
 	path = [esx]/esx_sit
-	url = git@github.com:BeyondEarthRP/esx_sit.git
+	url = https://github.com/BeyondEarthRP/esx_sit.git
 [submodule "[esx]/esx_rpchat"]
 	path = [esx]/esx_rpchat
-	url = git@github.com:BeyondEarthRP/esx_rpchat.git
+	url = https://github.com/BeyondEarthRP/esx_rpchat.git
 [submodule "[esx]/esx_optionalneeds"]
 	path = [esx]/esx_optionalneeds
 	url = https://github.com/BeyondEarthRP/esx_optionalneeds.git
@@ -195,31 +192,40 @@
 	url = https://github.com/BeyondEarthRP/esx_lscustom.git
 [submodule "[esx]/esx_carwash"]
 	path = [esx]/esx_carwash
-	url = git@github.com:BeyondEarthRP/esx_carwash.git
+	url = https://github.com/BeyondEarthRP/esx_carwash.git
 [submodule "fivem-ipl"]
 	path = fivem-ipl
-	url = git@github.com:BeyondEarthRP/fivem-ipl.git
+	url = https://github.com/BeyondEarthRP/fivem-ipl.git
 [submodule "[esx]/esx_realweapons"]
 	path = [esx]/esx_realweapons
 	url = https://github.com/BeyondEarthRP/esx_realweapons.git
 [submodule "FiveM-DinoWeather"]
 	path = FiveM-DinoWeather
-	url = git@github.com:BeyondEarthRP/FiveM-DinoWeather.git
+	url = https://github.com/BeyondEarthRP/FiveM-DinoWeather.git
 [submodule "societybalance"]
 	path = societybalance
-	url = git@github.com:BeyondEarthRP/societybalance.git
+	url = https://github.com/BeyondEarthRP/societybalance.git
 [submodule "[esx]/esx_map"]
 	path = [esx]/esx_map
-	url = git@github.com:BeyondEarthRP/esx_map.git
+	url = https://github.com/BeyondEarthRP/esx_map.git
 [submodule "jointransition"]
 	path = jointransition
-	url = git@github.com:BeyondEarthRP/JoinTransition.git
+	url = https://github.com/BeyondEarthRP/JoinTransition.git
 [submodule "[esx]/instance"]
 	path = [esx]/instance
-	url = git@github.com:BeyondEarthRP/instance
+	url = https://github.com/BeyondEarthRP/instance
 [submodule "airports"]
 	path = airports
-	url = git@github.com:BeyondEarthRP/airports.git
+	url = https://github.com/BeyondEarthRP/airports.git
 [submodule "[rendertarget]"]
 	path = [rendertarget]
-	url = git@github.com:BeyondEarthRP/gtav-rendertarget.git
+	url = https://github.com/BeyondEarthRP/gtav-rendertarget.git
+[submodule "__[LOADING-SCREENS]__/cyberload"]
+	path = __[LOADING-SCREENS]__/cyberload
+	url = https://github.com/BeyondEarthRP/cyberload.git
+[submodule "__[LOADING-SCREENS]__/fivem-gta-loading"]
+	path = __[LOADING-SCREENS]__/fivem-gta-loading
+	url = https://github.com/BeyondEarthRP/fivem-gta-loading.git
+[submodule "__[LOADING-SCREENS]__/loqscript-material_load-loadingscreen"]
+	path = __[LOADING-SCREENS]__/loqscript-material_load-loadingscreen
+	url = https://github.com/BeyondEarthRP/FiveM-Material_Load-Loading-Screen.git
