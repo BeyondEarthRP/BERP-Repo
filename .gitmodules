@@ -223,3 +223,9 @@
 [submodule "[rendertarget]"]
 	path = [rendertarget]
 	url = git@github.com:BeyondEarthRP/gtav-rendertarget.git
+[submodule "__[LOADING-SCREENS]__/cyberload"]
+	path = __[LOADING-SCREENS]__/cyberload
+	url = git@github.com:BeyondEarthRP/cyberload.git
+[submodule "__[LOADING-SCREENS]__/fivem-gta-loading"]
+	path = __[LOADING-SCREENS]__/fivem-gta-loading
+	url = git@github.com:BeyondEarthRP/fivem-gta-loading.git
