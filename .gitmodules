@@ -241,3 +241,6 @@
 [submodule "interactSound"]
 	path = interactSound
 	url = https://github.com/BeyondEarthRP/interactSound.git
+[submodule "live_map"]
+	path = live_map
+	url = https://github.com/BeyondEarthRP/live_map.git
