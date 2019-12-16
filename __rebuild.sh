@@ -41,4 +41,5 @@ cp -rfup /home/fivem/REPO/airports /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/live_map /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/NativeUILua_Reloaded /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/NativeUILua/NativeUI /opt/FXServer/server-data/resources/
-cp -rfup /home/fivem/REPO/interactSound /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/InteractSound /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/fivem-coloredmap /opt/FXServer/server-data/resources/
