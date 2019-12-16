@@ -244,3 +244,6 @@
 [submodule "fivem-coloredmap"]
 	path = fivem-coloredmap
 	url = git@github.com:BeyondEarthRP/fivem-coloredmap.git
+[submodule "live_map"]
+	path = live_map
+	url = https://github.com/BeyondEarthRP/live_map.git
