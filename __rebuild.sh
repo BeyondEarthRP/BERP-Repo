@@ -39,3 +39,4 @@ cp -rfup /home/fivem/REPO/societybalance /opt/FXServer/server-data/resources
 cp -rfup /home/fivem/REPO/jointransition /opt/FXServer/server-data/resources
 cp -rfup /home/fivem/REPO/airports /opt/FXServer/server-data/resources
 cp -rfup /home/fivem/REPO/live_map /opt/FXServer/server-data/resources
+cp -rfup /home/fivem/REPO/NativeUILua_Reloaded /opt/FXServer/server-data/resources

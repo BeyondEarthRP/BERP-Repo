@@ -229,3 +229,6 @@
 [submodule "__[LOADING-SCREENS]__/loqscript-material_load-loadingscreen"]
 	path = __[LOADING-SCREENS]__/loqscript-material_load-loadingscreen
 	url = https://github.com/BeyondEarthRP/FiveM-Material_Load-Loading-Screen.git
+[submodule "NativeUILua_Reloaded"]
+	path = NativeUILua_Reloaded
+	url = git@github.com:BeyondEarthRP/NativeUILua_Reloaded.git
