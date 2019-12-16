@@ -247,3 +247,12 @@
 [submodule "live_map"]
 	path = live_map
 	url = https://github.com/BeyondEarthRP/live_map.git
+[submodule "[esx]/esx_strippers"]
+	path = [esx]/esx_strippers
+	url = git@github.com:BeyondEarthRP/esx_strippers.git
+[submodule "[esx]/esx_lapdance"]
+	path = [esx]/esx_lapdance
+	url = git@github.com:BeyondEarthRP/esx_lapdance.git
+[submodule "malteser_cinema"]
+	path = malteser_cinema
+	url = git@github.com:BeyondEarthRP/malteser_cinema.git
