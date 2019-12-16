@@ -231,4 +231,13 @@
 	url = https://github.com/BeyondEarthRP/FiveM-Material_Load-Loading-Screen.git
 [submodule "NativeUILua_Reloaded"]
 	path = NativeUILua_Reloaded
-	url = git@github.com:BeyondEarthRP/NativeUILua_Reloaded.git
+	url = https://github.com/BeyondEarthRP/NativeUILua_Reloaded.git
+[submodule "NativeUILua"]
+	path = NativeUILua
+	url = https://github.com/BeyondEarthRP/NativeUILua.git
+[submodule "[vehicles]/salty_vehicleblackout"]
+	path = [vehicles]/salty_vehicleblackout
+	url = https://github.com/BeyondEarthRP/salty_vehicleblackout.git
+[submodule "interactSound"]
+	path = interactSound
+	url = https://github.com/BeyondEarthRP/interactSound.git

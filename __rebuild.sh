@@ -34,9 +34,11 @@ cp -rfup /home/fivem/REPO/WeightDisplayForTrew /opt/FXServer/server-data/resourc
 cp -rfup /home/fivem/REPO/mapaddons /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/Peds /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/LegacyFuel /opt/FXServer/server-data/resources/
-cp -rfup /home/fivem/REPO/FiveM-DinoWeather /opt/FXServer/server-data/resources
-cp -rfup /home/fivem/REPO/societybalance /opt/FXServer/server-data/resources
-cp -rfup /home/fivem/REPO/jointransition /opt/FXServer/server-data/resources
-cp -rfup /home/fivem/REPO/airports /opt/FXServer/server-data/resources
-cp -rfup /home/fivem/REPO/live_map /opt/FXServer/server-data/resources
-cp -rfup /home/fivem/REPO/NativeUILua_Reloaded /opt/FXServer/server-data/resources
+cp -rfup /home/fivem/REPO/FiveM-DinoWeather /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/societybalance /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/jointransition /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/airports /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/live_map /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/NativeUILua_Reloaded /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/NativeUILua/NativeUI /opt/FXServer/server-data/resources/
+cp -rfup /home/fivem/REPO/interactSound /opt/FXServer/server-data/resources/
