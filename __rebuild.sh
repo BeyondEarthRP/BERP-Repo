@@ -42,5 +42,4 @@ cp -rfup /home/fivem/REPO/live_map /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/NativeUILua_Reloaded /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/NativeUILua/NativeUI /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/interactSound /opt/FXServer/server-data/resources/
-cp -rfup /home/fivem/REPO/fivem-coloredmap/coloredmap /opt/FXServer/server-data/resources/
 cp -rfup /home/fivem/REPO/malteser_cinema /opt/FXServer/server-data/resources/
