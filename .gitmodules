@@ -256,3 +256,6 @@
 [submodule "malteser_cinema"]
 	path = malteser_cinema
 	url = git@github.com:BeyondEarthRP/malteser_cinema.git
+[submodule "[vehicles]/berp_seatbelts"]
+	path = [vehicles]/berp_seatbelts
+	url = git@github.com:BeyondEarthRP/berp_seatbelts.git
