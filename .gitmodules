@@ -259,3 +259,9 @@
 [submodule "[vehicles]/berp_seatbelts"]
 	path = [vehicles]/berp_seatbelts
 	url = git@github.com:BeyondEarthRP/berp_seatbelts.git
+[submodule "pNotify"]
+	path = pNotify
+	url = git@github.com:BeyondEarthRP/pNotify.git
+[submodule "cfx-server-data"]
+	path = cfx-server-data
+	url = git@github.com:BeyondEarthRP/cfx-server-data.git
