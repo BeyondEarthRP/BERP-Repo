@@ -7,6 +7,8 @@ DateStamp=`date +"@%B#%Y"`
 mkdir /opt/FXServer/server-data
 mkdir /opt/FXServer/server-data/resources
 
+/home/fivem/vmenu-build.sh
+
 sed "s/#rcon_password CHANGE_ME/rcon_password \"${Pass}${DateStamp}\"/" /home/fivem/REPO/server.cfg > /opt/FXServer/server-data/server.cfg
 #cp -rfup /home/fivem/REPO/server.cfg /opt/FXServer/server-data/server.cfg
 cp -rfup /home/fivem/REPO/__\[LOGOS\]__/$LOGO /opt/FXServer/server-data/BERP-Logo.png
