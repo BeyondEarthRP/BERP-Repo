@@ -1,3 +1,4 @@
 #!/bin/sh
-rm -rf /opt/FXServer/server-data/server.cfg
-rm -rf /opt/FXServer/server-data/resources/*
+rm -f /opt/FXServer/server-data/server.cfg
+rm -f /opt/FXServer/server-data/permissions.cfg
+rm -rf /opt/FXServer/server-data
