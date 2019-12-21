@@ -265,3 +265,6 @@
 [submodule "cfx-server-data"]
 	path = cfx-server-data
 	url = git@github.com:BeyondEarthRP/cfx-server-data.git
+[submodule "[esx]/esx_welcome"]
+	path = [esx]/esx_welcome
+	url = git@github.com:BeyondEarthRP/esx_welcome.git
