@@ -1,252 +1,252 @@
 [submodule "/home/fivem/REPO/Calm-AI"]
 	path = Calm-AI
-	url = https://github.com/BeyondEarthRP/Calm-AI.git
+	url = git@github.com:BeyondEarthRP/Calm-AI.git
 [submodule "[esx]/esx_accessories"]
 	path = [esx]/esx_accessories
-	url = https://github.com/BeyondEarthRP/esx_accessories.git
+	url = git@github.com:BeyondEarthRP/esx_accessories.git
 [submodule "cron"]
 	path = cron
-	url = https://github.com/BeyondEarthRP/cron
+	url = git@github.com:BeyondEarthRP/cron
 [submodule "mysql-async"]
 	path = mysql-async
-	url = https://github.com/BeyondEarthRP/fivem-mysql-async.git
+	url = git@github.com:BeyondEarthRP/fivem-mysql-async.git
 [submodule "[essential]/es_extended"]
 	path = [essential]/es_extended
-	url = https://github.com/BeyondEarthRP/es_extended.git
+	url = git@github.com:BeyondEarthRP/es_extended.git
 [submodule "es_admin2"]
 	path = es_admin2
-	url = https://github.com/BeyondEarthRP/es_admin2.git
+	url = git@github.com:BeyondEarthRP/es_admin2.git
 [submodule "skinchanger"]
 	path = skinchanger
-	url = https://github.com/BeyondEarthRP/skinchanger.git
+	url = git@github.com:BeyondEarthRP/skinchanger.git
 [submodule "[plugins]/krz_personalmenu"]
 	path = [plugins]/krz_personalmenu
-	url = https://github.com/BeyondEarthRP/krz_personalmenu.git
+	url = git@github.com:BeyondEarthRP/krz_personalmenu.git
 [submodule "GcPhoneForESX"]
 	path = GcPhoneForESX
-	url = https://github.com/BeyondEarthRP/GcPhoneForESX.git
+	url = git@github.com:BeyondEarthRP/GcPhoneForESX.git
 [submodule "instance"]
 	path = instance
-	url = https://github.com/BeyondEarthRP/instance
+	url = git@github.com:BeyondEarthRP/instance
 [submodule "bob74_ipl"]
 	path = bob74_ipl
-	url = https://github.com/BeyondEarthRP/bob74_ipl.git
+	url = git@github.com:BeyondEarthRP/bob74_ipl.git
 [submodule "Hot-Female-Ped-Pack"]
 	path = Hot-Female-Ped-Pack
-	url = https://github.com/BeyondEarthRP/Hot-Female-Ped-Pack-.git
+	url = git@github.com:BeyondEarthRP/Hot-Female-Ped-Pack-.git
 [submodule "fivem-resource-base"]
 	path = fivem-resource-base
-	url = https://github.com/BeyondEarthRP/fivem-resource-base
+	url = git@github.com:BeyondEarthRP/fivem-resource-base
 [submodule "es_ui"]
 	path = es_ui
-	url = https://github.com/BeyondEarthRP/es_ui.git
+	url = git@github.com:BeyondEarthRP/es_ui.git
 [submodule "[esx]/esx_license"]
 	path = [esx]/esx_license
-	url = https://github.com/BeyondEarthRP/esx_license.git
+	url = git@github.com:BeyondEarthRP/esx_license.git
 [submodule "[esx]/esx_advancedgarage"]
 	path = [esx]/esx_advancedgarage
-	url = https://github.com/BeyondEarthRP/esx_advancedgarage.git
+	url = git@github.com:BeyondEarthRP/esx_advancedgarage.git
 [submodule "[esx]/esx_holdup"]
 	path = [esx]/esx_holdup
-	url = https://github.com/BeyondEarthRP/esx_holdup.git
+	url = git@github.com:BeyondEarthRP/esx_holdup.git
 [submodule "[esx]/esx_vehicleshop"]
 	path = [esx]/esx_vehicleshop
-	url = https://github.com/BeyondEarthRP/esx_vehicleshop.git
+	url = git@github.com:BeyondEarthRP/esx_vehicleshop.git
 [submodule "[esx]/esx_datastore"]
 	path = [esx]/esx_datastore
-	url = https://github.com/BeyondEarthRP/esx_datastore.git
+	url = git@github.com:BeyondEarthRP/esx_datastore.git
 [submodule "[esx]/esx_status"]
 	path = [esx]/esx_status
-	url = https://github.com/BeyondEarthRP/esx_status.git
+	url = git@github.com:BeyondEarthRP/esx_status.git
 [submodule "[esx]/esx_aiomenu"]
 	path = [esx]/esx_aiomenu
-	url = https://github.com/BeyondEarthRP/esx_aiomenu.git
+	url = git@github.com:BeyondEarthRP/esx_aiomenu.git
 [submodule "[esx]/esx_animations"]
 	path = [esx]/esx_animations
-	url = https://github.com/BeyondEarthRP/ESX_Animations-English-Version.git
+	url = git@github.com:BeyondEarthRP/ESX_Animations-English-Version.git
 [submodule "[esx]/esx_atm"]
 	path = [esx]/esx_atm
-	url = https://github.com/BeyondEarthRP/esx_atm.git
+	url = git@github.com:BeyondEarthRP/esx_atm.git
 [submodule "[esx]/esx_policejob"]
 	path = [esx]/esx_policejob
-	url = https://github.com/BeyondEarthRP/esx_policejob.git
+	url = git@github.com:BeyondEarthRP/esx_policejob.git
 [submodule "[esx]/esx_mechanicjob"]
 	path = [esx]/esx_mechanicjob
-	url = https://github.com/BeyondEarthRP/esx_mechanicjob.git
+	url = git@github.com:BeyondEarthRP/esx_mechanicjob.git
 [submodule "[esx]/esx_addonaccount"]
 	path = [esx]/esx_addonaccount
-	url = https://github.com/BeyondEarthRP/esx_addonaccount.git
+	url = git@github.com:BeyondEarthRP/esx_addonaccount.git
 [submodule "[esx]/esx_property"]
 	path = [esx]/esx_property
-	url = https://github.com/BeyondEarthRP/esx_property.git
+	url = git@github.com:BeyondEarthRP/esx_property.git
 [submodule "[esx]/esx_joblisting"]
 	path = [esx]/esx_joblisting
-	url = https://github.com/BeyondEarthRP/esx_joblisting.git
+	url = git@github.com:BeyondEarthRP/esx_joblisting.git
 [submodule "[esx]/esx_skin"]
 	path = [esx]/esx_skin
-	url = https://github.com/BeyondEarthRP/esx_skin.git
+	url = git@github.com:BeyondEarthRP/esx_skin.git
 [submodule "[esx]/esx_identity"]
 	path = [esx]/esx_identity
-	url = https://github.com/BeyondEarthRP/esx_identity.git
+	url = git@github.com:BeyondEarthRP/esx_identity.git
 [submodule "[esx]/esx_ambulancejob"]
 	path = [esx]/esx_ambulancejob
-	url = https://github.com/BeyondEarthRP/esx_ambulancejob.git
+	url = git@github.com:BeyondEarthRP/esx_ambulancejob.git
 [submodule "[esx]/[ui]/esx_menu_dialog"]
 	path = [esx]/[ui]/esx_menu_dialog
-	url = https://github.com/BeyondEarthRP/esx_menu_dialog.git
+	url = git@github.com:BeyondEarthRP/esx_menu_dialog.git
 [submodule "[esx]/[ui]/esx_menu_default"]
 	path = [esx]/[ui]/esx_menu_default
-	url = https://github.com/BeyondEarthRP/esx_menu_default.git
+	url = git@github.com:BeyondEarthRP/esx_menu_default.git
 [submodule "[esx]/[ui]/esx_menu_list"]
 	path = [esx]/[ui]/esx_menu_list
-	url = https://github.com/BeyondEarthRP/esx_menu_list.git
+	url = git@github.com:BeyondEarthRP/esx_menu_list.git
 [submodule "[esx]/esx_drugs"]
 	path = [esx]/esx_drugs
-	url = https://github.com/BeyondEarthRP/esx_drugs.git
+	url = git@github.com:BeyondEarthRP/esx_drugs.git
 [submodule "[esx]/esx_billing"]
 	path = [esx]/esx_billing
-	url = https://github.com/BeyondEarthRP/esx_billing.git
+	url = git@github.com:BeyondEarthRP/esx_billing.git
 [submodule "[esx]/esx_voice"]
 	path = [esx]/esx_voice
-	url = https://github.com/BeyondEarthRP/esx_voice.git
+	url = git@github.com:BeyondEarthRP/esx_voice.git
 [submodule "[esx]/esx_taxijob"]
 	path = [esx]/esx_taxijob
-	url = https://github.com/BeyondEarthRP/esx_taxijob.git
+	url = git@github.com:BeyondEarthRP/esx_taxijob.git
 [submodule "[esx]/esx_shops"]
 	path = [esx]/esx_shops
-	url = https://github.com/BeyondEarthRP/esx_shops.git
+	url = git@github.com:BeyondEarthRP/esx_shops.git
 [submodule "[esx]/esx_service"]
 	path = [esx]/esx_service
-	url = https://github.com/BeyondEarthRP/esx_service.git
+	url = git@github.com:BeyondEarthRP/esx_service.git
 [submodule "[esx]/esx_basicneeds"]
 	path = [esx]/esx_basicneeds
-	url = https://github.com/BeyondEarthRP/esx_basicneeds.git
+	url = git@github.com:BeyondEarthRP/esx_basicneeds.git
 [submodule "[esx]/esx_clotheshop"]
 	path = [esx]/esx_clotheshop
-	url = https://github.com/BeyondEarthRP/esx_clotheshop.git
+	url = git@github.com:BeyondEarthRP/esx_clotheshop.git
 [submodule "[esx]/esx_society"]
 	path = [esx]/esx_society
-	url = https://github.com/BeyondEarthRP/esx_society.git
+	url = git@github.com:BeyondEarthRP/esx_society.git
 [submodule "[esx]/esx_jobs"]
 	path = [esx]/esx_jobs
-	url = https://github.com/BeyondEarthRP/esx_jobs.git
+	url = git@github.com:BeyondEarthRP/esx_jobs.git
 [submodule "[esx]/esx_locksystem"]
 	path = [esx]/esx_locksystem
-	url = https://github.com/BeyondEarthRP/esx_locksystem.git
+	url = git@github.com:BeyondEarthRP/esx_locksystem.git
 [submodule "[esx]/esx_addoninventory"]
 	path = [esx]/esx_addoninventory
-	url = https://github.com/BeyondEarthRP/esx_addoninventory.git
+	url = git@github.com:BeyondEarthRP/esx_addoninventory.git
 [submodule "esplugin_mysql"]
 	path = esplugin_mysql
-	url = https://github.com/BeyondEarthRP/esplugin_mysql.git
+	url = git@github.com:BeyondEarthRP/esplugin_mysql.git
 [submodule "FiveM-RealisticVehicles"]
 	path = FiveM-RealisticVehicles
-	url = https://github.com/BeyondEarthRP/FiveM-RealisticVehicles.git
+	url = git@github.com:BeyondEarthRP/FiveM-RealisticVehicles.git
 [submodule "essentialmode"]
 	path = essentialmode
-	url = https://github.com/BeyondEarthRP/essentialmode.git
+	url = git@github.com:BeyondEarthRP/essentialmode.git
 [submodule "async"]
 	path = async
-	url = https://github.com/BeyondEarthRP/async.git
+	url = git@github.com:BeyondEarthRP/async.git
 [submodule "__[VEHICLES-PACKS]__/Vehicles"]
 	path = __[VEHICLES-PACKS]__/Vehicles
-	url = https://github.com/five-m/Vehicles.git
+	url = git@github.com:five-m/Vehicles.git
 [submodule "__[VEHICLES-PACKS]__/JobVehicles"]
 	path = __[VEHICLES-PACKS]__/JobVehicles
-	url = https://github.com/AnotherGermanRoleplay/Cars-JobVehicles.git
+	url = git@github.com:AnotherGermanRoleplay/Cars-JobVehicles.git
 [submodule "[vehicles]/ExternalVehicleCommands"]
 	path = [vehicles]/ExternalVehicleCommands
-	url = https://github.com/BeyondEarthRP/ExternalVehicleCommands.git
+	url = git@github.com:BeyondEarthRP/ExternalVehicleCommands.git
 [submodule "[esx]/esx_drugfarms"]
 	path = [esx]/esx_drugfarms
-	url = https://github.com/BeyondEarthRP/esx_drugfarms.git
+	url = git@github.com:BeyondEarthRP/esx_drugfarms.git
 [submodule "trew_hud_ui"]
 	path = trew_hud_ui
-	url = https://github.com/BeyondEarthRP/trew_hud_ui
+	url = git@github.com:BeyondEarthRP/trew_hud_ui
 [submodule "mapaddons"]
 	path = mapaddons
-	url = https://github.com/BeyondEarthRP/FiveM_CustomMapAddons.git
+	url = git@github.com:BeyondEarthRP/FiveM_CustomMapAddons.git
 [submodule "Peds"]
 	path = Peds
-	url = https://github.com/BeyondEarthRP/Peds.git
+	url = git@github.com:BeyondEarthRP/Peds.git
 [submodule "LegacyFuel"]
 	path = LegacyFuel
-	url = https://github.com/BeyondEarthRP/LegacyFuel.git
+	url = git@github.com:BeyondEarthRP/LegacyFuel.git
 [submodule "WeightDisplayForTrew"]
 	path = WeightDisplayForTrew
-	url = https://github.com/BeyondEarthRP/WightDisplay-for-trew_hud_ui-FiveM.git
+	url = git@github.com:BeyondEarthRP/WightDisplay-for-trew_hud_ui-FiveM.git
 [submodule "[vehicles]/RealisticVehicleFailure"]
 	path = [vehicles]/RealisticVehicleFailure
-	url = https://github.com/BeyondEarthRP/RealisticVehicleFailure.git
+	url = git@github.com:BeyondEarthRP/RealisticVehicleFailure.git
 [submodule "[esx]/esx_sit"]
 	path = [esx]/esx_sit
-	url = https://github.com/BeyondEarthRP/esx_sit.git
+	url = git@github.com:BeyondEarthRP/esx_sit.git
 [submodule "[esx]/esx_rpchat"]
 	path = [esx]/esx_rpchat
-	url = https://github.com/BeyondEarthRP/esx_rpchat.git
+	url = git@github.com:BeyondEarthRP/esx_rpchat.git
 [submodule "[esx]/esx_optionalneeds"]
 	path = [esx]/esx_optionalneeds
-	url = https://github.com/BeyondEarthRP/esx_optionalneeds.git
+	url = git@github.com:BeyondEarthRP/esx_optionalneeds.git
 [submodule "[esx]/esx_lscustom"]
 	path = [esx]/esx_lscustom
-	url = https://github.com/BeyondEarthRP/esx_lscustom.git
+	url = git@github.com:BeyondEarthRP/esx_lscustom.git
 [submodule "[esx]/esx_carwash"]
 	path = [esx]/esx_carwash
-	url = https://github.com/BeyondEarthRP/esx_carwash.git
+	url = git@github.com:BeyondEarthRP/esx_carwash.git
 [submodule "fivem-ipl"]
 	path = fivem-ipl
-	url = https://github.com/BeyondEarthRP/fivem-ipl.git
+	url = git@github.com:BeyondEarthRP/fivem-ipl.git
 [submodule "[esx]/esx_realweapons"]
 	path = [esx]/esx_realweapons
-	url = https://github.com/BeyondEarthRP/esx_realweapons.git
+	url = git@github.com:BeyondEarthRP/esx_realweapons.git
 [submodule "FiveM-DinoWeather"]
 	path = FiveM-DinoWeather
-	url = https://github.com/BeyondEarthRP/FiveM-DinoWeather.git
+	url = git@github.com:BeyondEarthRP/FiveM-DinoWeather.git
 [submodule "societybalance"]
 	path = societybalance
-	url = https://github.com/BeyondEarthRP/societybalance.git
+	url = git@github.com:BeyondEarthRP/societybalance.git
 [submodule "[esx]/esx_map"]
 	path = [esx]/esx_map
-	url = https://github.com/BeyondEarthRP/esx_map.git
+	url = git@github.com:BeyondEarthRP/esx_map.git
 [submodule "jointransition"]
 	path = jointransition
-	url = https://github.com/BeyondEarthRP/JoinTransition.git
+	url = git@github.com:BeyondEarthRP/JoinTransition.git
 [submodule "[esx]/instance"]
 	path = [esx]/instance
-	url = https://github.com/BeyondEarthRP/instance
+	url = git@github.com:BeyondEarthRP/instance
 [submodule "airports"]
 	path = airports
-	url = https://github.com/BeyondEarthRP/airports.git
+	url = git@github.com:BeyondEarthRP/airports.git
 [submodule "[rendertarget]"]
 	path = [rendertarget]
-	url = https://github.com/BeyondEarthRP/gtav-rendertarget.git
+	url = git@github.com:BeyondEarthRP/gtav-rendertarget.git
 [submodule "__[LOADING-SCREENS]__/cyberload"]
 	path = __[LOADING-SCREENS]__/cyberload
-	url = https://github.com/BeyondEarthRP/cyberload.git
+	url = git@github.com:BeyondEarthRP/cyberload.git
 [submodule "__[LOADING-SCREENS]__/fivem-gta-loading"]
 	path = __[LOADING-SCREENS]__/fivem-gta-loading
-	url = https://github.com/BeyondEarthRP/fivem-gta-loading.git
+	url = git@github.com:BeyondEarthRP/fivem-gta-loading.git
 [submodule "__[LOADING-SCREENS]__/loqscript-material_load-loadingscreen"]
 	path = __[LOADING-SCREENS]__/loqscript-material_load-loadingscreen
-	url = https://github.com/BeyondEarthRP/FiveM-Material_Load-Loading-Screen.git
+	url = git@github.com:BeyondEarthRP/FiveM-Material_Load-Loading-Screen.git
 [submodule "NativeUILua_Reloaded"]
 	path = NativeUILua_Reloaded
-	url = https://github.com/BeyondEarthRP/NativeUILua_Reloaded.git
+	url = git@github.com:BeyondEarthRP/NativeUILua_Reloaded.git
 [submodule "NativeUILua"]
 	path = NativeUILua
-	url = https://github.com/BeyondEarthRP/NativeUILua.git
+	url = git@github.com:BeyondEarthRP/NativeUILua.git
 [submodule "[vehicles]/salty_vehicleblackout"]
 	path = [vehicles]/salty_vehicleblackout
-	url = https://github.com/BeyondEarthRP/salty_vehicleblackout.git
+	url = git@github.com:BeyondEarthRP/salty_vehicleblackout.git
 [submodule "interactSound"]
 	path = interactSound
-	url = https://github.com/BeyondEarthRP/interactSound.git
+	url = git@github.com:BeyondEarthRP/interactSound.git
 [submodule "fivem-coloredmap"]
 	path = fivem-coloredmap
 	url = git@github.com:BeyondEarthRP/fivem-coloredmap.git
 [submodule "live_map"]
 	path = live_map
-	url = https://github.com/BeyondEarthRP/live_map.git
+	url = git@github.com:BeyondEarthRP/live_map.git
 [submodule "[esx]/esx_strippers"]
 	path = [esx]/esx_strippers
 	url = git@github.com:BeyondEarthRP/esx_strippers.git
@@ -268,3 +268,144 @@
 [submodule "[esx]/esx_welcome"]
 	path = [esx]/esx_welcome
 	url = git@github.com:BeyondEarthRP/esx_welcome.git
+[submodule "[esx]/esx_realestateagentjob"]
+	path = [esx]/esx_realestateagentjob
+	url = git@github.com:BeyondEarthRP/esx_realestateagentjob.git
+[submodule "[esx]/esx_bankerjob"]
+	path = [esx]/esx_bankerjob
+	url = git@github.com:BeyondEarthRP/esx_bankerjob.git
+[submodule "[esx]/esx_aircargojob"]
+	path = [esx]/esx_aircargojob
+	url = git@github.com:BeyondEarthRP/Esx_Aircargojob.git
+[submodule "[esx]/esx_advancedfishing"]
+	path = [esx]/esx_advancedfishing
+	url = git@github.com:BeyondEarthRP/esx_AdvancedFishing.git
+[submodule "[esx]/esx_plasticsurgery"]
+	path = [esx]/esx_plasticsurgery
+	url = git@github.com:BeyondEarthRP/esx_plasticsurgery.git
+[submodule "[esx]/esx_mafiajob"]
+	path = [esx]/esx_mafiajob
+	url = git@github.com:BeyondEarthRP/esx_mafiajob.git
+[submodule "[esx]/esx_hitmanjob"]
+	path = [esx]/esx_hitmanjob
+	url = git@github.com:BeyondEarthRP/esx_hitman.git
+[submodule "[esx]/esx_fbijob"]
+	path = [esx]/esx_fbijob
+	url = git@github.com:BeyondEarthRP/esx_fbijob.git
+[submodule "[esx]/[fbijob]"]
+	path = [esx]/[fbijob]
+	url = git@github.com:BeyondEarthRP/esx_fbijob.git
+[submodule "[esx]/esx_thelostmcjob"]
+	path = [esx]/esx_thelostmcjob
+	url = git@github.com:BeyondEarthRP/esx_thelostmcjob.git
+[submodule "[esx]/esx_firejob"]
+	path = [esx]/esx_firejob
+	url = git@github.com:BeyondEarthRP/esx_firejob.git
+[submodule "[esx]/esx_unicornjob"]
+	path = [esx]/esx_unicornjob
+	url = git@github.com:BeyondEarthRP/esx_unicornjob.git
+[submodule "[esx]/esx_nightclub"]
+	path = [esx]/esx_nightclub
+	url = git@github.com:BeyondEarthRP/esx_nightclub.git
+[submodule "[esx]/esx_armyjob"]
+	path = [esx]/esx_armyjob
+	url = git@github.com:BeyondEarthRP/esx_armyjob.git
+[submodule "[esx]/esx_barbershop"]
+	path = [esx]/esx_barbershop
+	url = git@github.com:BeyondEarthRP/esx_barbershop.git
+[submodule "[esx]/esx_truckshop"]
+	path = [esx]/esx_truckshop
+	url = git@github.com:BeyondEarthRP/esx_truckshop.git
+[submodule "[esx]/esx_hospital"]
+	path = [esx]/esx_hospital
+	url = git@github.com:BeyondEarthRP/esx_hospital.git
+[submodule "[esx]/esx_aircraftshop"]
+	path = [esx]/esx_aircraftshop
+	url = git@github.com:BeyondEarthRP/esx_aircraftshop.git
+[submodule "[esx]/esx_boatshop"]
+	path = [esx]/esx_boatshop
+	url = git@github.com:BeyondEarthRP/esx_boatshop.git
+[submodule "[esx]/esx_licenseshop"]
+	path = [esx]/esx_licenseshop
+	url = https://github.com/HumanTree92/esx_licenseshop.git
+[submodule "[esx]/esx_dockshop"]
+	path = [esx]/esx_dockshop
+	url = git@github.com:BeyondEarthRP/esx_dockshop.git
+[submodule "[esx]/esx_weaponshop"]
+	path = [esx]/esx_weaponshop
+	url = git@github.com:BeyondEarthRP/esx_weaponshop.git
+[submodule "[esx]/esx_cruisecontrol.git"]
+	path = [esx]/esx_cruisecontrol.git
+	url = git@github.com:BeyondEarthRP/esx_cruisecontrol.git
+[submodule "[esx]/esx_cruisecontrol"]
+	path = [esx]/esx_cruisecontrol
+	url = git@github.com:BeyondEarthRP/esx_cruisecontrol.git
+[submodule "[esx]/[burglary]"]
+	path = [esx]/[burglary]
+	url = git@github.com:BeyondEarthRP/fivem-burglary.git
+[submodule "[esx]/esx_showcommands"]
+	path = [esx]/esx_showcommands
+	url = git@github.com:BeyondEarthRP/esx_showcommands.git
+[submodule "[esx]/esx_dmvschool"]
+	path = [esx]/esx_dmvschool
+	url = git@github.com:BeyondEarthRP/esx_dmvschool.git
+[submodule "[esx]/[thief]"]
+	path = [esx]/[thief]
+	url = git@github.com:BeyondEarthRP/Thief-And-Cuffs.git
+[submodule "[esx]/esx_holdupbank"]
+	path = [esx]/esx_holdupbank
+	url = git@github.com:BeyondEarthRP/esx_holdupbank.git
+[submodule "[esx]/esx_borrmaskin"]
+	path = [esx]/esx_borrmaskin
+	url = git@github.com:BeyondEarthRP/esx_borrmaskin.git
+[submodule "[esx]/esx_duty"]
+	path = [esx]/esx_duty
+	url = git@github.com:BeyondEarthRP/esx_duty.git
+[submodule "[esx]/esx_airlines"]
+	path = [esx]/esx_airlines
+	url = git@github.com:BeyondEarthRP/esx_airlines.git
+[submodule "[esx]/esx_moneywash"]
+	path = [esx]/esx_moneywash
+	url = git@github.com:BeyondEarthRP/esx_moneywash.git
+[submodule "[esx]/esx_advanced_holdup"]
+	path = [esx]/esx_advanced_holdup
+	url = git@github.com:BeyondEarthRP/esx_advanced_holdup.git
+[submodule "[esx]/esx_diving"]
+	path = [esx]/esx_diving
+	url = git@github.com:BeyondEarthRP/esx_diving.git
+[submodule "[esx]/esx_ktackle"]
+	path = [esx]/esx_ktackle
+	url = git@github.com:BeyondEarthRP/esx_ktackle.git
+[submodule "[esx]/esx_planting"]
+	path = [esx]/esx_planting
+	url = git@github.com:BeyondEarthRP/esx_planting.git
+[submodule "[esx]/esx_carthief"]
+	path = [esx]/esx_carthief
+	url = git@github.com:BeyondEarthRP/esx_carthief.git
+[submodule "[esx]/esx_copweapon"]
+	path = [esx]/esx_copweapon
+	url = git@github.com:BeyondEarthRP/esx_copweapon.git
+[submodule "[esx]/esx_repairkit"]
+	path = [esx]/esx_repairkit
+	url = git@github.com:BeyondEarthRP/esx_repairkit.git
+[submodule "[esx]/esx_drugeffects"]
+	path = [esx]/esx_drugeffects
+	url = git@github.com:BeyondEarthRP/esx_drugeffects.git
+[submodule "[esx]/esx_hunting"]
+	path = [esx]/esx_hunting
+	url = git@github.com:BeyondEarthRP/esx_hunting.git
+[submodule "[esx]/esx_pvp"]
+	path = [esx]/esx_pvp
+	url = git@github.com:BeyondEarthRP/esx_pvp.git
+[submodule "[esx]/esx_scoreboard"]
+	path = [esx]/esx_scoreboard
+	url = git@github.com:BeyondEarthRP/esx_scoreboard.git
+[submodule "[esx]/eden_animal"]
+	path = [esx]/eden_animal
+	url = git@github.com:BeyondEarthRP/eden_animal.git
+[submodule "[non-esx]/StreetRaces"]
+	path = [non-esx]/StreetRaces
+	url = git@github.com:BeyondEarthRP/FiveM-StreetRaces.git
+[submodule "[non-esx]/Radargun"]
+	path = [non-esx]/Radargun
+	url = git@github.com:BeyondEarthRP/Radargun.git
