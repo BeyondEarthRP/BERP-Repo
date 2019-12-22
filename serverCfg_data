@@ -1,19 +1,11 @@
-######:MYSQL ASYNC
-CONFIG:set mysql_connection_string "server=localhost;database=essentialmode;userid=username;password=YourPassword"
-CONFIG:set es_enableCustomData 1
-######:ESSENTIAL MODE
-CONFIG:add_ace resource.essentialmode command.sets allow
-CONFIG:add_ace resource.essentialmode command.add_principal allow
-CONFIG:add_ace resource.essentialmode command.add_ace allow
-
-HEADER:vMenu%vmenu
+######:vMenu%vmenu
 CONFIG:exec permissions.cfg
 CONFIG:start vMenu
 
-HEADER:FiveM Default%fivem
 ######:Loading Screen
 CONFIG:ensure cyberload
-######:Base Mods for FiveM
+
+######:FiveM Base Mods
 CONFIG:start mapmanager
 CONFIG:start chat
 CONFIG:start spawnmanager
@@ -26,15 +18,15 @@ CONFIG:start baseevents
 CONFIG:start yarn
 CONFIG:start chat-theme-gtao
 
-HEADER:dependancies to other scripts%dependancies
-CONFIG:start NativeUI
-CONFIG:start NativeUILua_Reloaded
-CONFIG:start fivem-ipl
-
-HEADER:EssentialMode%essentialmode
 ######:MYSQL ASYNC
+CONFIG:set mysql_connection_string "server=localhost;database=essentialmode;userid=username;password=YourPassword"
+CONFIG:set es_enableCustomData 1
 CONFIG:start mysql-async
-######:ESSENTIAL MODE
+
+HEADER:Essential Mode%essentialmode
+CONFIG:add_ace resource.essentialmode command.sets allow
+CONFIG:add_ace resource.essentialmode command.add_principal allow
+CONFIG:add_ace resource.essentialmode command.add_ace allow
 CONFIG:start essentialmode
 CONFIG:start esplugin_mysql
 MYSQL:<RESOURCES>/esplugin_mysql/esplugin_mysql.sql
@@ -43,6 +35,11 @@ CONFIG:start es_extended
 MYSQL:<RESOURCES>/\[essential\]/es_extended/es_extended.sql
 CONFIG:ensure es_ui
 CONFIG:ensure async
+
+HEADER:dependancies to other scripts%dependancies
+CONFIG:start NativeUI
+CONFIG:start NativeUILua_Reloaded
+CONFIG:start fivem-ipl
 
 HEADER:(ESX) ESsentialmode eXtended%esx
 ######:ESX REQUIRED MODS
@@ -107,6 +104,7 @@ CONFIG:start esx_hitmanjob
 MYSQL:<RESOURCES>/\[esx\]/esx_hitmanjob/esx_hitmanjob.sql
 CONFIG:start esx_fbijob
 MYSQL:<RESOURCES>/\[esx\]/\[fbijob\]/esx_fbijob/localization/en_esx_fbijob.sql
+CONFIG:start tp_fbi
 CONFIG:start esx_thelostmcjob
 MYSQL:<RESOURCES>/\[esx\]/esx_thelostmcjob/localization/en_esx_thelostmcjob.sql
 CONFIG:start esx_firejob
@@ -114,7 +112,7 @@ MYSQL:<RESOURCES>/\[esx\]/esx_firejob/localization/en_esx_firejob.sql
 CONFIG:start esx_unicornjob
 MYSQL:<RESOURCES>/\[esx\]/esx_unicornjob/localization/en_esx_unicornjob.sql
 CONFIG:start fivem-ipl
-CONFIG:start esx_nightclubjob
+CONFIG:start esx_nightclub
 MYSQL:<RESOURCES>/\[esx\]/esx_nightclub/localization/en_esx_nightclub_data.sql
 MYSQL:<RESOURCES>/\[esx\]/esx_nightclub/localization/en_esx_nightclub_items.sql
 CONFIG:start esx_drugfarms
@@ -201,6 +199,8 @@ MYSQL:<RESOURCES>/\[esx\]/eden_accesories/eden_weapon_accesories.sql
 CONFIG:start BaseJumping
 CONFIG:start esx_rpchat
 CONFIG:start esx_sit
+CONFIG:start esx_map
+CONFIG:start esx_realweapons
 
 HEADER:LIVE MAP%livemap
 CONFIG:set socket_port 30121
@@ -220,6 +220,8 @@ CONFIG:start crouch-n-prone
 CONFIG:start Calm-AI
 CONFIG:start ped_pack
 CONFIG:start airports
+CONFIG:start interactSound
+CONFIG:start Radargun
 
 HEADER:Vehicle Mods%vehicle
 ######:behavior mods
