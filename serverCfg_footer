@@ -1,39 +1,3 @@
-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
-#> BEYOND EARTH ROLEPLAY
-#> 1577018856
-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
-
-# Only change the IP if you're using a server with multiple network interfaces, otherwise change the port only.
-endpoint_add_tcp "0.0.0.0:30120"
-endpoint_add_udp "0.0.0.0:30120"
-
-#||||||||||||||||||||||||||||||||||||||
-#|> MYSQL ASYNC
-#||||||||||||||||||||||||||||||||||||||
-set mysql_connection_string "server=localhost;database=essentialmode;userid=username;password=YourPassword"
-set es_enableCustomData 1
-
-#||||||||||||||||||||||||||||||||||||||
-#|> ESSENTIAL MODE
-#||||||||||||||||||||||||||||||||||||||
-add_ace resource.essentialmode command.sets allow
-add_ace resource.essentialmode command.add_principal allow
-add_ace resource.essentialmode command.add_ace allow
-
-#######################################
-# EXTERNAL CONFIGURATION FILES
-#######################################
-exec configs/vmenu.cfg
-exec configs/fivem.cfg
-exec configs/dependancies.cfg
-exec configs/essentialmode.cfg
-exec configs/esx.cfg
-exec configs/livemap.cfg
-exec configs/non-esx.cfg
-exec configs/vehicle.cfg
-exec configs/visuals.cfg
-exec configs/places.cfg
-exec configs/last.cfg
 
 # This allows players to use scripthook-based plugins such as the legacy Lambda Menu.
 # Set this to 1 to allow scripthook. Do note that this does _not_ guarantee players won't be able to use external plugins.

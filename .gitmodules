@@ -409,3 +409,27 @@
 [submodule "[non-esx]/Radargun"]
 	path = [non-esx]/Radargun
 	url = git@github.com:BeyondEarthRP/Radargun.git
+[submodule "[non-esx]/allcity_wallet"]
+	path = [non-esx]/allcity_wallet
+	url = git@github.com:BeyondEarthRP/allcity_wallet.git
+[submodule "[esx]/eden_accesories"]
+	path = [esx]/eden_accesories
+	url = git@github.com:BeyondEarthRP/eden_accesories.git
+[submodule "[non-esx]/crouch-n-prone"]
+	path = [non-esx]/crouch-n-prone
+	url = git@github.com:BeyondEarthRP/crouch-n-prone.git
+[submodule "[vehicles]/frfuel"]
+	path = [vehicles]/frfuel
+	url = git@github.com:BeyondEarthRP/frfuel.git
+[submodule "[vehicles]/SexySpeedometer"]
+	path = [vehicles]/SexySpeedometer
+	url = git@github.com:BeyondEarthRP/fivem-speedometer.git
+[submodule "[vehicles]/VehicleTrustSystem"]
+	path = [vehicles]/VehicleTrustSystem
+	url = git@github.com:BeyondEarthRP/VehicleTrustSystem.git
+[submodule "[vehicles]/seatbelt"]
+	path = [vehicles]/seatbelt
+	url = git@github.com:BeyondEarthRP/fivem-seatbelt.git
+[submodule "[esx]/BaseJumping"]
+	path = [esx]/BaseJumping
+	url = git@github.com:BeyondEarthRP/BaseJumping.git

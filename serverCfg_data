@@ -1,0 +1,272 @@
+######:MYSQL ASYNC
+CONFIG:set mysql_connection_string "server=localhost;database=essentialmode;userid=username;password=YourPassword"
+CONFIG:set es_enableCustomData 1
+######:ESSENTIAL MODE
+CONFIG:add_ace resource.essentialmode command.sets allow
+CONFIG:add_ace resource.essentialmode command.add_principal allow
+CONFIG:add_ace resource.essentialmode command.add_ace allow
+
+HEADER:vMenu%vmenu
+CONFIG:exec permissions.cfg
+CONFIG:start vMenu
+
+HEADER:FiveM Default%fivem
+######:Loading Screen
+CONFIG:ensure cyberload
+######:Base Mods for FiveM
+CONFIG:start mapmanager
+CONFIG:start chat
+CONFIG:start spawnmanager
+CONFIG:start sessionmanager
+CONFIG:restart sessionmanager
+CONFIG:start fivem
+CONFIG:start hardcap
+CONFIG:start rconlog
+CONFIG:start baseevents
+CONFIG:start yarn
+CONFIG:start chat-theme-gtao
+
+HEADER:dependancies to other scripts%dependancies
+CONFIG:start NativeUI
+CONFIG:start NativeUILua_Reloaded
+CONFIG:start fivem-ipl
+
+HEADER:EssentialMode%essentialmode
+######:MYSQL ASYNC
+CONFIG:start mysql-async
+######:ESSENTIAL MODE
+CONFIG:start essentialmode
+CONFIG:start esplugin_mysql
+MYSQL:<RESOURCES>/esplugin_mysql/esplugin_mysql.sql
+CONFIG:start es_admin2
+CONFIG:start es_extended
+MYSQL:<RESOURCES>/\[essential\]/es_extended/es_extended.sql
+CONFIG:ensure es_ui
+CONFIG:ensure async
+
+HEADER:(ESX) ESsentialmode eXtended%esx
+######:ESX REQUIRED MODS
+CONFIG:start pNotify
+CONFIG:start instance
+CONFIG:start cron
+CONFIG:start skinchanger
+CONFIG:start esx_skin
+CONFIG:start esx_menu_default
+CONFIG:start esx_menu_list
+CONFIG:start esx_menu_dialog
+CONFIG:start esx_addons_gcphone
+CONFIG:start gcphone
+CONFIG:start esx_addonaccount
+MYSQL:<RESOURCES>/\[esx\]/esx_addonaccount/esx_addonaccount.sql
+CONFIG:start esx_addoninventory
+MYSQL:<RESOURCES>/\[esx\]/esx_addoninventory/esx_addoninventory.sql
+CONFIG:start esx_datastore
+MYSQL:<RESOURCES>/\[esx\]/esx_datastore/esx_datastore.sql
+CONFIG:start esx_society
+MYSQL:<RESOURCES>/\[esx\]/esx_society/esx_society.sql
+CONFIG:ensure societybalance
+CONFIG:start esx_service
+CONFIG:start esx_billing
+MYSQL:<RESOURCES>/\[esx\]/esx_billing/esx_billing.sql
+CONFIG:start esx_license
+MYSQL:<RESOURCES>/\[esx\]/esx_license/esx_license.sql
+CONFIG:start esx_identity
+MYSQL:<RESOURCES>/\[esx\]/esx_identity/esx_identity.sql
+CONFIG:start esx_status
+MYSQL:<RESOURCES>/\[esx\]/esx_status/esx_status.sql
+CONFIG:start esx_basicneeds
+MYSQL:<RESOURCES>/\[esx\]/esx_basicneeds/localization/en_esx_basicneeds.sql
+######:ESX JOBS
+CONFIG:start esx_jobs
+MYSQL:<RESOURCES>/\[esx\]/esx_jobs/localization/en_esx_jobs.sql
+CONFIG:start esx_joblisting
+MYSQL:<RESOURCES>/\[esx\]/esx_joblisting/esx_joblisting.sql
+CONFIG:start esx_taxijob
+MYSQL:<RESOURCES>/\[esx\]/esx_taxijob/localization/en_esx_taxijob.sql
+CONFIG:start esx_mechanicjob
+MYSQL:<RESOURCES>/\[esx\]/esx_mechanicjob/localization/en_esx_mecanojob.sql
+CONFIG:start esx_policejob
+MYSQL:<RESOURCES>/\[esx\]/esx_policejob/localization/en_esx_policejob.sql
+CONFIG:start esx_property
+MYSQL:<RESOURCES>/\[esx\]/esx_property/localization/en_esx_property.sql
+MYSQL:<RESOURCES>/\[esx\]/esx_property/offices.sql
+CONFIG:start esx_realestateagentjob
+MYSQL:<RESOURCES>/\[esx\]/esx_realestateagentjob/localization/en_esx_realestateagentjob.sql
+CONFIG:start esx_bankerjob
+MYSQL:<RESOURCES>/\[esx\]/esx_bankerjob/localization/en_esx_bankerjob.sql
+CONFIG:start esx_ambulancejob
+MYSQL:<RESOURCES>/\[esx\]/esx_ambulancejob/localization/en_esx_ambulancejob.sql
+CONFIG:start esx_aircargojob
+MYSQL:<RESOURCES>/\[esx\]/esx_aircargojob/esx_aircargojob.sql
+CONFIG:start esx_advancedfishing
+MYSQL:<RESOURCES>/\[esx\]/esx_advancedfishing/esx_advancedfishing.sql
+CONFIG:start esx_plasticsurgery
+CONFIG:start esx_mafiajob
+MYSQL:<RESOURCES>/\[esx\]/esx_mafiajob/esx_mafiajob.sql
+CONFIG:start esx_hitmanjob
+MYSQL:<RESOURCES>/\[esx\]/esx_hitmanjob/esx_hitmanjob.sql
+CONFIG:start esx_fbijob
+MYSQL:<RESOURCES>/\[esx\]/\[fbijob\]/esx_fbijob/localization/en_esx_fbijob.sql
+CONFIG:start esx_thelostmcjob
+MYSQL:<RESOURCES>/\[esx\]/esx_thelostmcjob/localization/en_esx_thelostmcjob.sql
+CONFIG:start esx_firejob
+MYSQL:<RESOURCES>/\[esx\]/esx_firejob/localization/en_esx_firejob.sql
+CONFIG:start esx_unicornjob
+MYSQL:<RESOURCES>/\[esx\]/esx_unicornjob/localization/en_esx_unicornjob.sql
+CONFIG:start fivem-ipl
+CONFIG:start esx_nightclubjob
+MYSQL:<RESOURCES>/\[esx\]/esx_nightclub/localization/en_esx_nightclub_data.sql
+MYSQL:<RESOURCES>/\[esx\]/esx_nightclub/localization/en_esx_nightclub_items.sql
+CONFIG:start esx_drugfarms
+CONFIG:start esx_armyjob
+MYSQL:<RESOURCES>/\[esx\]/esx_armyjob/localization/en_esx_armyjob.sql
+######:ESX SHOPS
+CONFIG:start esx_shops
+MYSQL:<RESOURCES>/\[esx\]/esx_shops/esx_shops.sql
+CONFIG:start esx_barbershop
+CONFIG:start esx_clotheshop
+CONFIG:start esx_vehicleshop
+MYSQL:<RESOURCES>/\[esx\]/esx_vehicleshop/localization/en_esx_vehicleshop.sql
+CONFIG:start esx_truckshop
+MYSQL:<RESOURCES>/\[esx\]/esx_truckshop/esx_truckshop.sql
+CONFIG:start esx_hospital
+CONFIG:start esx_aircraftshop
+MYSQL:<RESOURCES>/\[esx\]/esx_aircraftshop/esx_aircraftshop.sql
+CONFIG:start esx_boatshop
+MYSQL:<RESOURCES>/\[esx\]/esx_boatshop/esx_boatshop.sql
+CONFIG:start esx_licenseshop
+CONFIG:start esx_dockshop
+MYSQL:<RESOURCES>/\[esx\]/esx_dockshop/localization/en_esx_dockshop.sql
+CONFIG:start esx_weaponshop
+MYSQL:<RESOURCES>/\[esx\]/esx_weaponshop/localization/en_esx_weaponshop.sql
+######:TREW HUD UI
+CONFIG:#start trew_hud_ui
+CONFIG:#start WeightDisplayForTrew
+######:ANY OTHER ESX MODS
+CONFIG:start esx_welcome
+CONFIG:start esx_locksystem
+CONFIG:start esx_holdup
+CONFIG:start esx_drugs
+MYSQL:<RESOURCES>/\[esx\]/esx_drugs/localization/en_esx_drugs.sql
+CONFIG:start esx_atm
+CONFIG:start esx_accessories
+MYSQL:<RESOURCES>/\[esx\]/esx_accessories/localization/en_esx_accessories.sql
+CONFIG:start esx_animations
+CONFIG:start esx_lscustom
+CONFIG:start esx_cruisecontrol
+CONFIG:start esx_optionalneeds
+CONFIG:#start esx_voice
+CONFIG:start burglary
+CONFIG:start esx_burglary
+CONFIG:start esx_showcommands
+CONFIG:start esx_aiomenu
+CONFIG:start esx_carwash
+CONFIG:start esx_dmvschool
+MYSQL:<RESOURCES>/\[esx\]/esx_dmvschool/localization/en_esx_dmvschool.sql
+CONFIG:start esx_thief
+MYSQL:<RESOURCES>/\[esx\]/\[thief\]/esx_thief/esx_thief.sql
+CONFIG:start handsup
+CONFIG:start esx_holdupbank
+CONFIG:start esx_borrmaskin
+MYSQL:<RESOURCES>/\[esx\]/esx_borrmaskin/esx_borrmaskin.sql
+CONFIG:start esx_duty
+MYSQL:<RESOURCES>/\[esx\]/esx_duty/esx_duty.sql
+CONFIG:start esx_airlines
+MYSQL:<RESOURCES>/\[esx\]/esx_airlines/esx_airlines.sql
+CONFIG:start esx_moneywash
+CONFIG:start esx_advanced_holdup
+CONFIG:start esx_advancedgarage
+MYSQL:<RESOURCES>/\[esx\]/esx_advancedgarage/vehicleshop_fix.sql
+MYSQL:<RESOURCES>/\[esx\]/esx_advancedgarage/optional_properties.sql
+CONFIG:start esx_diving
+MYSQL:<RESOURCES>/\[esx\]/esx_diving/esx_diving.sql
+CONFIG:start esx_ktackle
+CONFIG:start esx_strippers
+CONFIG:start esx_lapdance
+CONFIG:start esx_planting
+CONFIG:start esx_carthief
+CONFIG:start esx_copweapon
+CONFIG:start esx_repairkit
+MYSQL:<RESOURCES>/\[esx\]/esx_repairkit/esx_repairkit.sql
+CONFIG:start esx_drugeffects
+MYSQL:<RESOURCES>/\[esx\]/esx_drugeffects/esx_drugeffects.sql
+CONFIG:start esx_hunting
+MYSQL:<RESOURCES>/\[esx\]/esx_hunting/esx_hunting.sql
+CONFIG:start esx_pvp
+CONFIG:start esx_scoreboard
+CONFIG:start eden_animal
+MYSQL:<RESOURCES>/\[esx\]/eden_animal/eden_animal.sql
+CONFIG:start eden_accessories
+MYSQL:<RESOURCES>/\[esx\]/eden_accesories/eden_weapon_accesories.sql
+CONFIG:start BaseJumping
+CONFIG:start esx_rpchat
+CONFIG:start esx_sit
+
+HEADER:LIVE MAP%livemap
+CONFIG:set socket_port 30121
+CONFIG:set livemap_debug "warn" # "[all]" 'trace', 'debug', 'info', 'warn', 'error', 'fatal', 'off'
+CONFIG:set blip_file "server/blips.json"
+CONFIG:set livemap_access_control "*"
+CONFIG:start live_map
+
+HEADER:Non-ESX Mods%non-esx
+CONFIG:start malteser_cinema
+CONFIG:start jointransition
+CONFIG:start mapaddons
+CONFIG:start StreetRaces
+CONFIG:start allcity_wallet
+CONFIG:start Peds
+CONFIG:start crouch-n-prone
+CONFIG:start Calm-AI
+CONFIG:start ped_pack
+CONFIG:start airports
+
+HEADER:Vehicle Mods%vehicle
+######:behavior mods
+CONFIG:start salty_vehicleblackout
+CONFIG:start RealisticTraffic
+CONFIG:start RealisticDrivingV
+CONFIG:start RealisticAirControl
+CONFIG:start RealisticBrakeLights
+CONFIG:start RealisticVehicleFailure
+CONFIG:start frfuel
+CONFIG:start SexySpeedometer
+CONFIG:start VehicleTrustSystem
+CONFIG:start seatbelt
+CONFIG:start ExternalVehicleCommands
+######:CIVILIAN VEHICLES
+CONFIG:start avz
+CONFIG:start vwcaddy
+CONFIG:start coach
+CONFIG:start rs7
+CONFIG:start a6tfsi
+CONFIG:start x6m
+CONFIG:start 2019M5
+CONFIG:start bmci
+CONFIG:start sc18
+CONFIG:start lp610
+
+HEADER:Visual Mods%visuals
+######:REALISM STREAMS
+CONFIG:start In-N-Out
+CONFIG:start LAPDH  
+CONFIG:start ad2
+CONFIG:start ak47
+CONFIG:start glock
+CONFIG:start m4a1
+######:RENDERTARGET (SCREENS)
+CONFIG:start blimphud
+CONFIG:start franklin_tv
+CONFIG:#start img --FAILED TO LOAD
+CONFIG:start menu
+CONFIG:start taxihud
+CONFIG:start youtube
+
+HEADER:Places%places
+CONFIG:start paletopd
+    
+HEADER:Start Last%last
+######:PERSONAL MENU
+CONFIG:ensure krz_personalmenu
+######:SESSION MANAGER RESTART
+CONFIG:restart sessionmanager
