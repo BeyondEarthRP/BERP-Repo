@@ -1,0 +1,8 @@
+{
+  "experiments": {
+    "bans": {
+      "enabled": false,
+      "banList": []
+    }
+  }
+}

@@ -36,14 +36,7 @@ MYSQL:<RESOURCES>/\[essential\]/es_extended/es_extended.sql
 CONFIG:ensure es_ui
 CONFIG:ensure async
 
-HEADER:dependancies to other scripts%dependancies
-CONFIG:start NativeUI
-CONFIG:start NativeUILua_Reloaded
-CONFIG:start fivem-ipl
-
-HEADER:(ESX) ESsentialmode eXtended%esx
-######:ESX REQUIRED MODS
-CONFIG:start pNotify
+HEADER:ESX Required Mods%esx
 CONFIG:start instance
 CONFIG:start cron
 CONFIG:start skinchanger
@@ -51,8 +44,6 @@ CONFIG:start esx_skin
 CONFIG:start esx_menu_default
 CONFIG:start esx_menu_list
 CONFIG:start esx_menu_dialog
-CONFIG:start esx_addons_gcphone
-CONFIG:start gcphone
 CONFIG:start esx_addonaccount
 MYSQL:<RESOURCES>/\[esx\]/esx_addonaccount/esx_addonaccount.sql
 CONFIG:start esx_addoninventory
@@ -65,14 +56,24 @@ CONFIG:ensure societybalance
 CONFIG:start esx_service
 CONFIG:start esx_billing
 MYSQL:<RESOURCES>/\[esx\]/esx_billing/esx_billing.sql
-CONFIG:start esx_license
-MYSQL:<RESOURCES>/\[esx\]/esx_license/esx_license.sql
 CONFIG:start esx_identity
 MYSQL:<RESOURCES>/\[esx\]/esx_identity/esx_identity.sql
-CONFIG:start esx_status
-MYSQL:<RESOURCES>/\[esx\]/esx_status/esx_status.sql
-CONFIG:start esx_basicneeds
-MYSQL:<RESOURCES>/\[esx\]/esx_basicneeds/localization/en_esx_basicneeds.sql
+CONFIG:start esx_license
+MYSQL:<RESOURCES>/\[esx\]/esx_license/esx_license.sql
+
+HEADER:dependancies to other scripts%dependancies
+CONFIG:start NativeUI
+CONFIG:start NativeUILua_Reloaded
+CONFIG:start fivem-ipl
+CONFIG:start bob74_ipl
+######:GCPHONE
+CONFIG:start esx_addons_gcphone
+CONFIG:start gcphone
+MYSQL:<RESOURCES>/GcPhoneForESX/base.sql
+MYSQL:<RESOURCES>/GcPhoneForESX/twitter.sql
+CONFIG:start pNotify
+
+HEADER:ESX Addon Mods%esx-addons
 ######:ESX JOBS
 CONFIG:start esx_jobs
 MYSQL:<RESOURCES>/\[esx\]/esx_jobs/localization/en_esx_jobs.sql
@@ -111,20 +112,23 @@ CONFIG:start esx_firejob
 MYSQL:<RESOURCES>/\[esx\]/esx_firejob/localization/en_esx_firejob.sql
 CONFIG:start esx_unicornjob
 MYSQL:<RESOURCES>/\[esx\]/esx_unicornjob/localization/en_esx_unicornjob.sql
-CONFIG:start fivem-ipl
 CONFIG:start esx_nightclub
 MYSQL:<RESOURCES>/\[esx\]/esx_nightclub/localization/en_esx_nightclub_data.sql
 MYSQL:<RESOURCES>/\[esx\]/esx_nightclub/localization/en_esx_nightclub_items.sql
-CONFIG:start esx_drugfarms
 CONFIG:start esx_armyjob
 MYSQL:<RESOURCES>/\[esx\]/esx_armyjob/localization/en_esx_armyjob.sql
+######:More ESX Mods (here for start order)
+CONFIG:start esx_status
+MYSQL:<RESOURCES>/\[esx\]/esx_status/esx_status.sql
+CONFIG:start esx_basicneeds
+MYSQL:<RESOURCES>/\[esx\]/esx_basicneeds/localization/en_esx_basicneeds.sql
 ######:ESX SHOPS
+CONFIG:start esx_vehicleshop
+MYSQL:<RESOURCES>/\[esx\]/esx_vehicleshop/localization/en_esx_vehicleshop.sql
 CONFIG:start esx_shops
 MYSQL:<RESOURCES>/\[esx\]/esx_shops/esx_shops.sql
 CONFIG:start esx_barbershop
 CONFIG:start esx_clotheshop
-CONFIG:start esx_vehicleshop
-MYSQL:<RESOURCES>/\[esx\]/esx_vehicleshop/localization/en_esx_vehicleshop.sql
 CONFIG:start esx_truckshop
 MYSQL:<RESOURCES>/\[esx\]/esx_truckshop/esx_truckshop.sql
 CONFIG:start esx_hospital
@@ -260,9 +264,9 @@ CONFIG:start m4a1
 CONFIG:start blimphud
 CONFIG:start franklin_tv
 CONFIG:#start img --FAILED TO LOAD
-CONFIG:start menu
+CONFIG:#start menu --attempt to index a nil value (global 'WarMenu')
 CONFIG:start taxihud
-CONFIG:start youtube
+CONFIG:#start youtube --attempt to index a nil value (upvalue 'screenCoords')
 
 HEADER:Places%places
 CONFIG:start paletopd
