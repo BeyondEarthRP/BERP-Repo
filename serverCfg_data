@@ -17,6 +17,7 @@ CONFIG:start rconlog
 CONFIG:start baseevents
 CONFIG:start yarn
 CONFIG:start chat-theme-gtao
+CONFIG:start monitor
 
 ######:MYSQL ASYNC
 CONFIG:set mysql_connection_string "server=localhost;database=essentialmode;userid=username;password=YourPassword"
@@ -39,8 +40,6 @@ CONFIG:ensure async
 HEADER:ESX Required Mods%esx
 CONFIG:start instance
 CONFIG:start cron
-CONFIG:start skinchanger
-CONFIG:start esx_skin
 CONFIG:start esx_menu_default
 CONFIG:start esx_menu_list
 CONFIG:start esx_menu_dialog
@@ -50,16 +49,18 @@ CONFIG:start esx_addoninventory
 MYSQL:<RESOURCES>/\[esx\]/esx_addoninventory/esx_addoninventory.sql
 CONFIG:start esx_datastore
 MYSQL:<RESOURCES>/\[esx\]/esx_datastore/esx_datastore.sql
-CONFIG:start esx_society
-MYSQL:<RESOURCES>/\[esx\]/esx_society/esx_society.sql
-CONFIG:ensure societybalance
-CONFIG:start esx_service
 CONFIG:start esx_billing
 MYSQL:<RESOURCES>/\[esx\]/esx_billing/esx_billing.sql
+MYSQL:<RESOURCES>/\[esx\]/esx_society/esx_society.sql
+CONFIG:ensure societybalance
+CONFIG:start skinchanger
+CONFIG:start esx_skin
+CONFIG:start esx_society
+CONFIG:start esx_service
 CONFIG:start esx_identity
 MYSQL:<RESOURCES>/\[esx\]/esx_identity/esx_identity.sql
-CONFIG:start esx_license
-MYSQL:<RESOURCES>/\[esx\]/esx_license/esx_license.sql
+CONFIG:start esx_accessories
+MYSQL:<RESOURCES>/\[esx\]/esx_accessories/localization/en_esx_accessories.sql
 
 HEADER:dependancies to other scripts%dependancies
 CONFIG:start NativeUI
@@ -75,6 +76,8 @@ CONFIG:start pNotify
 
 HEADER:ESX Addon Mods%esx-addons
 ######:ESX JOBS
+CONFIG:start esx_license
+MYSQL:<RESOURCES>/\[esx\]/esx_license/esx_license.sql
 CONFIG:start esx_jobs
 MYSQL:<RESOURCES>/\[esx\]/esx_jobs/localization/en_esx_jobs.sql
 CONFIG:start esx_joblisting
@@ -117,6 +120,7 @@ MYSQL:<RESOURCES>/\[esx\]/esx_nightclub/localization/en_esx_nightclub_data.sql
 MYSQL:<RESOURCES>/\[esx\]/esx_nightclub/localization/en_esx_nightclub_items.sql
 CONFIG:start esx_armyjob
 MYSQL:<RESOURCES>/\[esx\]/esx_armyjob/localization/en_esx_armyjob.sql
+CONFIG:start esx_drugfarms
 ######:More ESX Mods (here for start order)
 CONFIG:start esx_status
 MYSQL:<RESOURCES>/\[esx\]/esx_status/esx_status.sql
@@ -145,14 +149,14 @@ MYSQL:<RESOURCES>/\[esx\]/esx_weaponshop/localization/en_esx_weaponshop.sql
 CONFIG:#start trew_hud_ui
 CONFIG:#start WeightDisplayForTrew
 ######:ANY OTHER ESX MODS
+CONFIG:ensure eden_accessories
+MYSQL:<RESOURCES>/\[esx\]/eden_accesories/eden_weapon_accesories.sql
 CONFIG:start esx_welcome
 CONFIG:start esx_locksystem
 CONFIG:start esx_holdup
 CONFIG:start esx_drugs
 MYSQL:<RESOURCES>/\[esx\]/esx_drugs/localization/en_esx_drugs.sql
 CONFIG:start esx_atm
-CONFIG:start esx_accessories
-MYSQL:<RESOURCES>/\[esx\]/esx_accessories/localization/en_esx_accessories.sql
 CONFIG:start esx_animations
 CONFIG:start esx_lscustom
 CONFIG:start esx_cruisecontrol
@@ -198,8 +202,6 @@ CONFIG:start esx_pvp
 CONFIG:start esx_scoreboard
 CONFIG:start eden_animal
 MYSQL:<RESOURCES>/\[esx\]/eden_animal/eden_animal.sql
-CONFIG:start eden_accessories
-MYSQL:<RESOURCES>/\[esx\]/eden_accesories/eden_weapon_accesories.sql
 CONFIG:start BaseJumping
 CONFIG:start esx_rpchat
 CONFIG:start esx_sit
