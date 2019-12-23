@@ -1,9 +1,0 @@
-[
-    {
-        "name": "txadmin",
-        "password_hash": "$2a$05$FBZT3jANftrWL7sA9S1DyuXXMlI18I91hoRmc2Mt3L/iRPAKBRqBq",
-        "permissions": [
-            "all"
-        ]
-    }
-]
