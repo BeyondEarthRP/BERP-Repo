@@ -103,10 +103,10 @@ echo "" >> $SOURCE/server.cfg
 cat $SOURCE/serverCfg_net >> $SOURCE/server.cfg
 if [ -f $SOURCE/serverCfg_top ]; then
     echo "writing the top of the config:"
-    echo "    cat serverCfg_top >> server.cfg "
+    echo "    cat $SOURCE/serverCfg_top >> $SOURCE/server.cfg "
     cat $SOURCE/serverCfg_top >> $SOURCE/server.cfg
-    echo "removing artifact"
-    echo "    rm serverCfg_top"
+    echo "removing remnants..."
+    echo "    rm $SOURCE/serverCfg_top"
     rm $SOURCE/serverCfg_top
 
 fi
@@ -117,13 +117,14 @@ echo "#######################################" >> $SOURCE/server.cfg
 for serverCfg in "${configs[@]}"
 do
     echo "writing config line:"
-    echo "    exec $serverCfg"
+    echo "    exec $serverCfg >> $SOURCE/server.cfg"
     echo "exec $serverCfg" >> $SOURCE/server.cfg
     echo ""
 done
 echo "done with nested configs."
 echo ""
 echo "writing footer config..."
+echo "    cat $SOURCE/serverCfg_footer >> $SOURCE/server.cfg"
 cat $SOURCE/serverCfg_footer >> $SOURCE/server.cfg
 echo ""
 echo "Finished."
