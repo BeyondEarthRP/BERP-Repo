@@ -3,6 +3,8 @@ fnd="0"
 skp="0"
 see="0"
 echo ""
+en="english"
+fr="french"
 while read line;
 do
 	line=${line%$'\r'}
@@ -31,14 +33,21 @@ do
 		export see
 	fi
 done < <(grep --include=config.lua -rnw '.' -e "Config.Locale")
-echo ""
+if [ "$see" != "0" ]; then
+	echo ""
+fi
 echo "found: $fnd"
 echo "shown: $see"
 echo "skipped: $skp"
 
 if [ "$see" == "0" ] && [ "$fnd" == "$skp" ] && [ "$fnd" != "0" ];
 then
-   echo "all configs are in [$1]"
+	echo ""
+	if [ ! -z ${!1} ]; then
+		echo "all configs are in ${!1}."
+	else
+		echo "all configs are in [$1]"
+	fi
 elif [ "$see" == "0" ] && [ "$fnd" == "0" ];
 then
    echo "something went wrong.  found $found entries"
