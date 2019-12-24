@@ -3,11 +3,12 @@ fnd="0"
 skp="0"
 see="0"
 echo ""
-while read line;
+while read -r line;
 do
 	line=${line%$'\r'}
 	let fnd++
 	export fnd
+	echo "FOUND: $fnd"
 	file="$(echo $line | cut -f1 -d= | cut -f1 -d:)"
 	lang="$(echo $line | rev | cut -f1 -d= | rev | cut -c3-4)"
 	if [ ! -z $1 ];
@@ -30,8 +31,7 @@ do
 		let see++
 		export see
 	fi
-done < <(grep --include=config.lua -rnw '.' -e "Config.Locale")
-echo ""
+done <$(grep --include=config.lua -rnw '.' -e "Config.Locale")
 echo "found: $fnd"
 echo "shown: $see"
 echo "skipped: $skp"
