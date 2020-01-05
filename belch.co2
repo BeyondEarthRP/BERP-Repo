@@ -1,4 +1,4 @@
-######:vMenu%vmenu
+######:vMenu
 CONFIG:exec permissions.cfg
 CONFIG:start vMenu
 
