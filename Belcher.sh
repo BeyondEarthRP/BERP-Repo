@@ -218,6 +218,10 @@ write_config() {
 	fi
 }
 
+
+###############################################################################################################
+####### BEGIN! ################################################################################################
+###############################################################################################################
 check_for_mysql
 
 if [ -z "$DB_ROOT_PASSWORD" ]
@@ -306,32 +310,42 @@ do
 			touch "${OUT_CFG:?}"
 			_FIGZ+=( "${EXEC_CFG:?}" )
 
-			color yellow - bold
-			echo -e -n "\\e[0m\\e[2K\\n\\e[0m\\e[2K\\t#########################################################################\\n\\t"
-			color yellow darkGray bold
-			echo -e    "\\e[0m\\e[2K# $HEADER_INFO \\xe2\\x86\\x92 ${OUT_CFG:?}\\e[0m"
-			color yellow - bold
-			echo -e    "\\e[0m\\e[2K\\t#########################################################################"
-			color - - clearAll
+			header_lenth="70"
+			header_bar=$(printf '#%.0s' $(eval echo "{1..$header_lenth}"))
+			header_detail="   \\xe2\\x86\\x92 ${OUT_CFG:?}"
+			header_spacer1=$(printf ' %.0s' $(eval echo "{1..$(($header_lenth-${#HEADER_INFO}-6 ))}"))
+			header_spacer2=$(printf ' %.0s' $(eval echo "{1..$(($header_lenth-${#header_detail}+14-8 ))}"))
+
+			echo -e -n "\\e[0m\\e[2K\\n\\e[0m\\e[2K\\t\\e[33m\\e[1m${header_bar:?}\\e[0m"
+			echo -e -n "\\n\\e[0m\\e[2K\\t\\e[33m\\e[1m#\\e[100m  ${HEADER_INFO:?})${header_spacer1:?} \\e[0m\\e[33m\\e[1m#\\e[0m"
+			echo -e -n "\\n\\e[0m\\e[2K\\t\\e[33m\\e[1m#\\e[100m  ${header_detail:?}${header_spacer2:?} \\e[0m\\e[33m\\e[1m#\\e[0m"
+			echo -e -n  "\\n\\e[0m\\e[2K\\t\\e[33m\\e[1m${header_bar:?}\\e[0m\\n"
 
 			echo -e "#######################################" 					 > "${OUT_CFG:?}" # STARTS A NEW CONFIG
 			echo -e "# $HEADER_INFO" 									>> "${OUT_CFG:?}"
 			echo -e "#######################################" 						>> "${OUT_CFG:?}"
+			unset header_length ; unset header_spacer1 ; unset header_spacer2 ; unset header_detail; unset header_bar
 	        elif [ "${CONF_TYPE:?}" == "######" ]
 		then #SUBHEADER
 
 			# EXAMPLE:
 			# SUBHEADER:PUT YOUR HEADER HERE
+			#$DATA
+			header_lenth="70"
+			subheader_bar=$(printf '|%.0s' $(eval echo "{1..$header_lenth}"))
+			subheader_detail="   \\xe2\\x86\\x92 ${OUT_CFG:?}"
+			subheader_spacer1=$(printf ' %.0s' $(eval echo "{1..$(( $header_lenth-${#DATA}-6 ))}"))
+			subheader_spacer2=$(printf ' %.0s' $(eval echo "{1..$(( $header_lenth-${#subheader_detail}+14-9 ))}"))
 
-			color cyan - bold
-			echo -e "\\e[0m\\e[2K\\n\\e[0m\\e[2K\\t#||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
-			echo -e    "\\e[0m\\e[2K\\t#|> $DATA \\xe2\\x86\\x92 ${OUT_CFG:?}"
-			echo -e    "\\e[0m\\e[2K\\t#||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
-			color - - clearAll
+			echo -e -n "\\e[0m\\e[999D\\e[2K\\n\\e[999D\\e[2K\\t\\e[96m\\e[1m${subheader_bar:?}\\e[0m"
+			echo -e -n "\\e[0m\\n\\e[999D\\e[2K\\t\\e[96m\\e[1m||\\e[0m\\e[30m\\e[46m  ${DATA:?}${subheader_spacer1:?}\\e[0m\\e[96m\\e[1m||\\e[0m"
+			echo -e -n "\\e[0m\\n\\e[999D\\e[2K\\t\\e[96m\\e[1m||\\e[0m\\e[30m\\e[46m  ${subheader_detail:?}${subheader_spacer2:?}\\e[0m\\e[96m\\e[1m||\\e[0m"
+			echo -e -n "\\e[0m\\n\\e[999D\\e[2K\\t\\e[96m\\e[1m${subheader_bar:?}\\e[0m\\n"
 
 			echo -e "\\n\\n#||||||||||||||||||||||||||||||||||||||" 					>> "${OUT_CFG:?}"
 			echo "#|> $DATA" 									>> "${OUT_CFG:?}"
 			echo "#||||||||||||||||||||||||||||||||||||||" 						>> "${OUT_CFG:?}"
+			unset header_length ; unset subheader_spacers1 ; unset subheader_spacers2 ; unset subheader_detail
 		fi
        	fi
 done 3< <(cat "${belch_co2:?}")
@@ -351,9 +365,10 @@ write_config
 
 if [ "$APPMAIN" == "SERVER_CONFIG" ] ;
 then
+	unset __PERSONALIZE__
 	PROMPT="Did you want to personalize and redeploy the server.cfg now?"
 	pluck_fig "__PERSONALIZE__" 10
 
-	. "$BUILD/build-config.sh" DEPLOY
-	[[ "$__PERSONALIZE__" == "true" ]] && personalize
+	[[ "$__PERSONALIZE__" == "true" ]] && . "$BUILD/build-config.sh" DEPLOY
+	[[ "$__PERSONALIZE__" == "true" ]] && . "$BUILD/build-config.sh" PERSONALIZE
 fi
