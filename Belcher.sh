@@ -258,7 +258,7 @@ do
 		then
 			echo "${DATA:?}"									>> "${OUT_CFG:?}"
 
-			echo -e "\\e[0m\\e[2K\\t\\x1B[92mADDED \\x1B[0m\\e[97m\\xe2\\x86\\x92 $DATA\\e[0m"
+			echo -e "\\e[0m\\e[2K\\t    \\x1B[92mADDED \\x1B[0m\\e[97m\\xe2\\x86\\x92 $DATA\\e[0m"
 
 			[[ "$OUT_CFG" != $(echo "$SOURCE/$ABUILT") ]] && needTag=1
 
@@ -268,7 +268,7 @@ do
 
 			#nano $FILE   #<- to edit the files first
 
-			echo -e -n "\\e[0m\\e[2K\\t\\x1B[93mIMPORTING: \\x1B[4m$FILE\\x1B[0m\\n"
+			echo -e -n "\\e[0m\\e[2K\\t    \\x1B[93mIMPORTING: \\x1B[4m$FILE\\x1B[0m\\n"
 
 			printf "\\x1B[97m\\x1B[44m\\x1B[K\\r"
 			mysql -u root -p"$DB_ROOT_PASSWORD" essentialmode < "${FILE:?}"
