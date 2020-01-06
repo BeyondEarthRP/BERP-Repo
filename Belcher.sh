@@ -215,6 +215,7 @@ write_config() {
 	  exit 1
 	else
 		mv -f "${SERVER_CONFIG:?}.wip" "${SERVER_CONFIG:?}"
+		rm -f "${SERVER_CONFIG:?}.wip" 2>/dev/null
 	fi
 }
 
