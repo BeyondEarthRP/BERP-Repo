@@ -132,13 +132,13 @@ write_config() {
 
 	echo -e "#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#"  > "${SERVER_CONFIG:?}.wip"
 	echo -e "#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#" >> "${SERVER_CONFIG:?}.wip"
-	echo -e "#> B.E.R.P Belcher FiveM+ESX Configuration Generator           " >> "${SERVER_CONFIG:?}.wip"
-	echo -e "#> Created by: Beyond Earth Roleplay (BERP)                    " >> "${SERVER_CONFIG:?}.wip"
+	echo -e "#> B.E.R.P Belcher FiveM+ESX Configuration Generator"            >> "${SERVER_CONFIG:?}.wip"
+	echo -e "#> Created by: Beyond Earth Roleplay (BERP)"                     >> "${SERVER_CONFIG:?}.wip"
 	echo -e "#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#" >> "${SERVER_CONFIG:?}.wip"
 	echo -e "#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#" >> "${SERVER_CONFIG:?}.wip"
 	echo -e "#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#" >> "${SERVER_CONFIG:?}.wip"
-	echo -e "#> SERVER NAME: ${SERVER_NAME:?}                               " >> "${SERVER_CONFIG:?}.wip"
-	echo -e "#>  BUILD DATE: ${CONFIG_TIMESTAMP:?}                          " >> "${SERVER_CONFIG:?}.wip"
+	echo -e "#> SERVER NAME: ${SERVER_NAME:?}"                                >> "${SERVER_CONFIG:?}.wip"
+	echo -e "#>  BUILD DATE: ${CONFIG_TIMESTAMP:?}"                           >> "${SERVER_CONFIG:?}.wip"
 	echo -e "#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#" >> "${SERVER_CONFIG:?}.wip"
 	echo -e "#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#\\n" >> "${SERVER_CONFIG:?}.wip"
 
